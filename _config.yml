@@ -1,6 +1,6 @@
 # Site settings
-title: A blog about lorem ipsum dolor sit amet
-description: A blog about lorem ipsum dolor sit amet
+title: A blog about coding and deep learning
+description: A blog about deep learning in python
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "ranarag.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
@@ -12,7 +12,7 @@ email: anu15roy@gmail.com
 twitter_username: lorem_ipsum
 github_username:  ranarag
 gplus_username:  lorem_ipsum
-disqus_username: disqus_X04Ct4XEKT 
+disqus_username: disqus_X04Ct4XEKT
 
 # Build settings
 markdown: kramdown
