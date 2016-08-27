@@ -1,38 +1,34 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+---
+layout: default
+---
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+<main id="scroll" class="home" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+    {% for post in site.posts %}
+        <article role="article" class="post-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+                <a class="datetime" href="{{ post.url | prepend: site.baseurl }}">
+                    <meta itemprop="datePublished" content="{{post.date}}">
+                    <time datetime="{{ post.date | date_to_xmlschema }}">
+                        <span class="day">
+                            {{ post.date | date: "%d" }}
+                        </span>
+                        <span class="month-year">
+                            {{ post.date | date: "%B %Y" }}
+                        </span>
+                    </time>
+                </a>
+                <div class="content">
+                    <a href="{{ post.url | prepend: site.baseurl }}"><h2 class="post-title" itemprop="name">{{ post.title }}</h2></a>
+                    <p class="description">
+                        {{ post.content | strip_html | truncatewords:40 }}
+                        <a href="{{ post.url | prepend: site.baseurl }}" class="link">Read more about {{post.title}}</a>
+                    </p>
 
-    <title>Anurag Roy by ranarag</title>
-  </head>
-
-  <body>
-
-    <header>
-      <div class="container">
-        <h1>Anurag Roy</h1>
-        <h2>My github page</h2>
-
-        <section id="downloads">
-          <a href="https://github.com/ranarag" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
-      </div>
-    </header>
-
-    <div class="container">
-      <section id="main_content">
-        <h1>
-<a id="ranaraggithubio" class="anchor" href="#ranaraggithubio" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ranarag.github.io</h1>
-
-<p>Creation of a github page</p>
-      </section>
-    </div>
-
-    
-  </body>
-</html>
+                    <div class="tags">
+                        {% for tag in post.tags %}
+                            <a href="{{ site.baseurl }}/tags/#{{tag | slugify }}">{{ tag }}</a>
+                        {% endfor %}
+                    </div>
+                </div>
+        </article>
+    {% endfor %}
+</main>
