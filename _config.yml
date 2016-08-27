@@ -33,9 +33,10 @@ links:
   - title: Home
     url: /
   - title: Series
+    url: /series
   - title: Resume
     url: /anurag_cv.pdf
-    url: /series
+
   - title: Tags
     url: /tags
   - title: About Me
