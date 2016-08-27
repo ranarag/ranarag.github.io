@@ -2,7 +2,7 @@
 title: A blog about coding and deep learning
 description: A blog about deep learning in python
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "ranarag.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: "" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: ranarag
