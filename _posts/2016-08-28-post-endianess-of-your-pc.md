@@ -3,14 +3,13 @@ layout: post
 title: "POST Endianess of your PC"
 date: 2016-08-28 14:54:27
 image: '/assets/img/'
-description: 'How to check the endianess of your computer using a cpp code'
+description: 'How to check the endianess of your computer using a cpp code.'
 tags:
 - networks
 - c++
-- tricks
 categories:
 - byte ordering in the network layer
-twitter_text:
+twitter_text: "something related to networks"
 ---
 
 While studying networks for my job interviews I came across a two system calls namely
@@ -48,7 +47,7 @@ and check the endianness of your pc
 
 - You can also use the following cpp code to check the endianness of your pc
 
-{% highlight bash %}
+{% highlight ruby %}
  #include <stdio.h>
 int main(void) 
 {
