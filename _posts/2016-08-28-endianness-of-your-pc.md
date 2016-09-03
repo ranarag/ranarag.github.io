@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Endianess of your PC"
+title: "Endianness of your PC"
 date: 2016-08-28 14:54:27
 image: '/assets/img/'
-description: 'How to check the endianess of your computer using a cpp code.'
+description: 'How to check the endianness of your computer using a cpp code.'
 tags:
 - networks
 - c++
@@ -12,7 +12,7 @@ categories:
 twitter_text: "something related to networks"
 ---
 
-While studying networks for my job interviews I came across a two system calls namely
+While studying networks I came across a two system calls namely
 - ntoh(s/l)
 - hton(s/l)
 Both of the above are related to byte ordering done in the network layer
@@ -49,7 +49,7 @@ and check the endianness of your pc
 
 {% highlight ruby %}
 # include <stdio.h>
-int main(void) 
+int main(void)
 {
    unsigned long i = 1;
    int *c = (int*)&i;
@@ -58,8 +58,8 @@ int main(void)
    else if(c[1]==1)
        printf("Big endian\n");
    else
-    printf("Unknown Endianness\n"); 
-   
+    printf("Unknown Endianness\n");
+
 }
 {% endhighlight %}
 
