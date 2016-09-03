@@ -19,13 +19,13 @@ the author has stated 10 rules adhering to which will make one a good programmer
 The author chosed C as the language for writing safety critical code because of the extensive tool support for this language including:
 
 
-1. Strong source code analyzers like [valgrind]( http://valgrind.org)
+[1.] Strong source code analyzers like [valgrind]( http://valgrind.org)
 
-2. debuggers like gdb
+[2.] debuggers like gdb
 
-3. stable compilers
+[3.] stable compilers
 
-4. Test support tools
+[4.] Test support tools
 
 
 Following are the 10 rules the author wants to emphasize upon:
@@ -46,5 +46,7 @@ equivalent iterative solution.)
    > of a loop cannot be exceeded. If the loop-bound cannot be proven statically, the rule
    > is considered violated.
 
+I think this rule does not need any explanations except for the fact that this rule is not applicable to iterations that
+are non-terminating(e.g. in a  process scheduler).In those cases we need to statistically prove that no upper-bound exists for such a problem.
 
 ### please pardon me for my incomplete work; will complete it soon ###
