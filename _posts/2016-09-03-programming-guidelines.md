@@ -17,6 +17,8 @@ In the paper [The Power of Ten-Rules for Developing Safety Critical Code](http:/
 the author has stated 10 rules adhering to which will make one a good programmer.
 
 The author chosed C as the language for writing safety critical code because of the extensive tool support for this language including:
+
+
 1. Strong source code analyzers like [valgrind]( http://valgrind.org)
 
 2. debuggers like gdb
