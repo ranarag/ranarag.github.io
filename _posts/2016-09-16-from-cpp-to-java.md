@@ -32,13 +32,14 @@ Some differences between c++ and java:
 5. c/c++ has functions while Java has methods.In c/c++ functions can be defined outside a class
 Java doesnot allow methods to be defined outside a class.
 
-6. Unlike c++  arrays Java arrays are objects.
+6. Unlike c++  arrays, Java arrays are objects.
 
-7. Unlike c++ strings are immutable in Java.
+7. Unlike c++, strings are immutable in Java.
 
-8. While in c++ classes "public", "private" and "protected" are labels , in Java they are modifiers. Each member has its own access modifier.
+8. While in c++ classes "public", "private" and "protected" are labels , in Java they are modifiers. Each member has its own access modifier. Java also has a no-modifier(a.k.a package-private) option which makes
+the member visible only within its own package.
 
-9. Unlike c++ Java method definitions do not have
+9. Unlike c++, Java method definitions do not have
 semicolon at the end of their closing brackets.
 
 10. Java uses the "extends" keyword while inherting features of a class to specify the superclass.

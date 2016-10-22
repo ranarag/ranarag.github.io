@@ -12,7 +12,7 @@ categories:
 twitter_text: "something related to networks"
 ---
 
-While studying networks I came across a two system calls namely
+While studying networks I came across two system calls namely
 - ntoh(s/l)
 - hton(s/l)
 Both of the above are related to byte ordering done in the network layer
@@ -34,7 +34,7 @@ in the internet.
 Well this depends upon the endianess of  your machine.
 If your machine follows Big Endian then you can do away with the functions,
 but if your pc follows little endian then you may get erroneous results.
-This is beacuse almost all network protocols follow big endian.
+This is because almost all network protocols follow big endian.
 
 ## How to check endianness of your pc
 - You can either use the following command
