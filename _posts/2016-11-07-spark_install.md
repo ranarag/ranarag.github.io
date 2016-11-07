@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "spark_install"
+title: "How to set up Spark multinode cluster"
 date: 2016-11-07 14:37:43
 image: '/assets/img/'
 description: ' set up spark multinode cluster'
