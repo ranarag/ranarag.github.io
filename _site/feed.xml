@@ -5,23 +5,61 @@
     <description>A blog about deep learning in python</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 28 Aug 2016 15:42:31 +0530</pubDate>
-    <lastBuildDate>Sun, 28 Aug 2016 15:42:31 +0530</lastBuildDate>
+    <pubDate>Mon, 07 Nov 2016 14:55:58 +0530</pubDate>
+    <lastBuildDate>Mon, 07 Nov 2016 14:55:58 +0530</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
-        <title>Welcome to Jekyll</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code class=&quot;highlighter-rouge&quot;&gt;-w&lt;/code&gt; switch) to see your changes! To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt; &lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt; &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt; &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most...</description>
-        <pubDate>Tue, 04 Aug 2015 08:51:35 +0530</pubDate>
-        <link>/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">/welcome-to-jekyll/</guid>
+        <title>from CPP to Java</title>
+        <description>&lt;p&gt;Some differences between c++ and java:&lt;/p&gt; &lt;ol&gt; &lt;li&gt; &lt;p&gt;Java compiled code is platform independent whereas c++ compiled code is platform dependent&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Java interpreter reports the run-time error that caused the execution to halt unlike in c/c++ programs which may simply crash&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;c/c++ do not have strict sizes for the fundamental datatypes(varies from machine to machine) whereas Java defines strict sizes for their datatypes&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Java has additional positive and negative zeros, positive and neagtive infinites and “nan”(not a number values)&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;c/c++ has functions while Java has methods.In c/c++ functions can be defined outside...</description>
+        <pubDate>Fri, 16 Sep 2016 21:38:49 +0530</pubDate>
+        <link>/from-cpp-to-java/</link>
+        <guid isPermaLink="true">/from-cpp-to-java/</guid>
         
-        <category>jekyll</category>
+        <category>coding</category>
         
-        <category>web</category>
+        <category>C</category>
+        
+        <category>CPP</category>
+        
+        <category>Java</category>
         
         
-        <category>Jekyll is awesome</category>
+        <category>cpp to java cheatsheet</category>
+        
+      </item>
+    
+      <item>
+        <title>Programming Guidelines</title>
+        <description>&lt;p&gt;In the paper &lt;a href=&quot;http://spinroot.com/gerard/pdf/P10.pdf&quot;&gt;The Power of Ten-Rules for Developing Safety Critical Code&lt;/a&gt; the author has stated 10 rules adhering to which will make one a good programmer.&lt;/p&gt; &lt;p&gt;The author chosed C as the language for writing safety critical code because of the extensive tool support for this language including:&lt;/p&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;Strong source code analyzers like &lt;a href=&quot;http://valgrind.org&quot;&gt;valgrind&lt;/a&gt;&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;debuggers like gdb&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;stable compilers&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Test support tools&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Following are the 10 rules the author wants to emphasize upon:&lt;/p&gt; &lt;ul&gt; &lt;li&gt; &lt;blockquote&gt; &lt;p&gt;Rule: Restrict all code to very simple control flow constructs –...</description>
+        <pubDate>Sat, 03 Sep 2016 15:34:25 +0530</pubDate>
+        <link>/programming-guidelines/</link>
+        <guid isPermaLink="true">/programming-guidelines/</guid>
+        
+        <category>coding</category>
+        
+        <category>C</category>
+        
+        <category>techniques</category>
+        
+        
+        <category>coding guidelines by NASA programmer</category>
+        
+      </item>
+    
+      <item>
+        <title>Endianness of your PC</title>
+        <description>&lt;p&gt;While studying networks I came across two system calls namely&lt;/p&gt; &lt;ul&gt; &lt;li&gt;ntoh(s/l)&lt;/li&gt; &lt;li&gt;hton(s/l) Both of the above are related to byte ordering done in the network layer&lt;/li&gt; &lt;/ul&gt; &lt;h2 id=&quot;ntohsl&quot;&gt;ntoh(s/l)&lt;/h2&gt; &lt;p&gt;It is used by host to convert a packet from network byte order to host byte order. (s for short and l for long).&lt;/p&gt; &lt;h2 id=&quot;htonsl&quot;&gt;hton(s/l)&lt;/h2&gt; &lt;p&gt;It is used by host before sending a packet to the network. This function converts a packet in host byte order to network byte order. (s for short and l for long).&lt;/p&gt; &lt;p&gt;I am not writing the example syntaxes of the above functions because...</description>
+        <pubDate>Sun, 28 Aug 2016 20:24:27 +0530</pubDate>
+        <link>/endianness-of-your-pc/</link>
+        <guid isPermaLink="true">/endianness-of-your-pc/</guid>
+        
+        <category>networks</category>
+        
+        <category>c++</category>
+        
+        
+        <category>byte ordering in the network layer</category>
         
       </item>
     

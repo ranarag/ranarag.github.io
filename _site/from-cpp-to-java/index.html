@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
+    <!-- Google Analytics tracking code-->
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-83971111-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Welcome to Jekyll</title>
-    <meta name="description" content="Put your description here.">
+    <title>from CPP to Java</title>
+    <meta name="description" content="A blog about deep learning in python">
 
     <!-- Google Authorship Markup -->
     <link rel="author" href="https://plus.google.com/None?rel=author">
@@ -14,24 +25,24 @@
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@royanurag19">
-    <meta name="twitter:title" content="Welcome to Jekyll">
-    <meta name="twitter:description" content="Put your description here.">
+    <meta name="twitter:title" content="from CPP to Java">
+    <meta name="twitter:description" content="A blog about deep learning in python">
     
     <meta property="twitter:image:src" content="/assets/img/">
     
 
     <!-- Social: Facebook / Open Graph -->
-    <meta property="og:url" content="/welcome-to-jekyll/">
-    <meta property="og:title" content="Welcome to Jekyll">
+    <meta property="og:url" content="/from-cpp-to-java/">
+    <meta property="og:title" content="from CPP to Java">
     
     <meta property="og:image" content="/assets/img/">
     
-    <meta property="og:description" content="Put your description here.">
+    <meta property="og:description" content="A blog about deep learning in python">
     <meta property="og:site_name" content="A blog about coding and deep learning">
 
     <!-- Social: Google+ / Schema.org  -->
-    <meta itemprop="name" content="Welcome to Jekyll"/>
-    <meta itemprop="description" content="Put your description here.">
+    <meta itemprop="name" content="from CPP to Java"/>
+    <meta itemprop="description" content="A blog about deep learning in python">
     <meta itemprop="image" content="/assets/img/blog-image.png"/>
 
     <!-- Favicon -->
@@ -57,7 +68,7 @@
     <meta name="theme-color" content="#0562DC">
 
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="/welcome-to-jekyll/">
+    <link rel="canonical" href="/from-cpp-to-java/">
     <link rel="alternate" type="application/rss+xml" title="A blog about coding and deep learning" href="/feed.xml" />
 </head>
 
@@ -68,11 +79,11 @@
     <div class="content">
 
         
-            <time itemprop="datePublished" datetime="2015-08-04 08:51:35 +0530" class="date">04 Aug 2015</time>
+            <time itemprop="datePublished" datetime="2016-09-16 21:38:49 +0530" class="date">16 Sep 2016</time>
         
-        <h1 class="post-title" itemprop="name">Welcome to Jekyll</h1>
+        <h1 class="post-title" itemprop="name">from CPP to Java</h1>
         <!-- <img itemprop="image" class="img-rounded" src="/assets/img/blog-author.jpg" alt="Anurag Roy"> -->
-        <p itemprop="description" class="subtitle">Put your description here.</p>
+        <p itemprop="description" class="subtitle"></p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
      <div class="search-wrapper">
@@ -126,33 +137,75 @@
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory - edit this post and re-build (or run with the <code class="highlighter-rouge">-w</code> switch) to see your changes!
-To add new posts, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention: YYYY-MM-DD-name-of-post.ext.</p>
+                <p>Some differences between c++ and java:</p>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<ol>
+  <li>
+    <p>Java compiled code is platform independent whereas c++ compiled code is
+  platform dependent</p>
+  </li>
+  <li>
+    <p>Java interpreter reports the run-time error that caused the execution to halt
+  unlike in c/c++ programs which may simply crash</p>
+  </li>
+  <li>
+    <p>c/c++ do not have strict sizes for the fundamental datatypes(varies from
+  machine to machine) whereas Java defines strict sizes for their datatypes</p>
+  </li>
+  <li>
+    <p>Java has additional positive and negative zeros, positive and neagtive infinites and “nan”(not a number values)</p>
+  </li>
+  <li>
+    <p>c/c++ has functions while Java has methods.In c/c++ functions can be defined outside a class
+Java doesnot allow methods to be defined outside a class.</p>
+  </li>
+  <li>
+    <p>Unlike c++  arrays, Java arrays are objects.</p>
+  </li>
+  <li>
+    <p>Unlike c++, strings are immutable in Java.</p>
+  </li>
+  <li>
+    <p>While in c++ classes “public”, “private” and “protected” are labels , in Java they are modifiers. Each member has its own access modifier. Java also has a no-modifier(a.k.a package-private) option which makes
+the member visible only within its own package.</p>
+  </li>
+  <li>
+    <p>Unlike c++, Java method definitions do not have
+semicolon at the end of their closing brackets.</p>
+  </li>
+  <li>
+    <p>Java uses the “extends” keyword while inherting features of a class to specify the superclass.</p>
+  </li>
+  <li>
+    <p>Java <a href="http://www.programmerinterview.com/index.php/java-questions/multiple-inheritance/">does not support multiple inheritance but supports multiple interfaces</a>.</p>
+  </li>
+  <li>
+    <p>Unlike c++ Java has <a href="www.javatpoint.com/difference-between-abstract-class-and-interface">interfaces which is a bit different from abstract class</a>.</p>
+  </li>
+  <li>
+    <p>In Java superclass constructors are callled using the keyword “super”.</p>
+  </li>
+  <li>
+    <p>Unlike c++ Java has class hierarchy. The  “Object” class is the root of this hierarchy.
+All classes are subclasses of this root class.</p>
+  </li>
+</ol>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
-
-<p>Check out the <a href="http://jekyllrb.com">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/mojombo/jekyll">Jekyll’s GitHub repo</a>.</p>
-
+<h3 id="there-are-many-other-differences-also-but-these-basic-differences-will-help-you-get-your-hands-dirty-with-java--">There are many other differences also but these basic differences will help you get your hands dirty with Java !! :)</h3>
 
             </article>
 
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;Put your twitter description here.&quot;%20/welcome-to-jekyll/%20via%20&#64;royanurag19&hashtags=jekyll,web,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20/from-cpp-to-java/%20via%20&#64;royanurag19&hashtags=coding,C,CPP,Java,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook"href="https://www.facebook.com/sharer/sharer.php?u=/welcome-to-jekyll/"
+    <a aria-label="Share on Facebook"href="https://www.facebook.com/sharer/sharer.php?u=/from-cpp-to-java/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=/welcome-to-jekyll/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=/from-cpp-to-java/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>
@@ -182,7 +235,7 @@ To add new posts, simply add a file in the <code class="highlighter-rouge">_post
         disqus_loaded = true;
         var disqus_shortname = 'ranarag-github-io-1';
         var disqus_title = '';
-        var disqus_url = '/welcome-to-jekyll/';
+        var disqus_url = '/from-cpp-to-java/';
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);

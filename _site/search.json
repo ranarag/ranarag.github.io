@@ -1,11 +1,27 @@
 [
   
     {
-      "title"    : "Welcome to Jekyll",
-      "category" : "Jekyll is awesome",
-      "tags"     : "jekyll and web",
-      "url"      : "/welcome-to-jekyll/",
-      "date"     : "04 Aug 2015"
+      "title"    : "from CPP to Java",
+      "category" : "cpp to java cheatsheet",
+      "tags"     : "coding, C, CPP, and Java",
+      "url"      : "/from-cpp-to-java/",
+      "date"     : "16 Sep 2016"
+    } ,
+  
+    {
+      "title"    : "Programming Guidelines",
+      "category" : "coding guidelines by NASA programmer",
+      "tags"     : "coding, C, and techniques",
+      "url"      : "/programming-guidelines/",
+      "date"     : "03 Sep 2016"
+    } ,
+  
+    {
+      "title"    : "Endianness of your PC",
+      "category" : "byte ordering in the network layer",
+      "tags"     : "networks and c++",
+      "url"      : "/endianness-of-your-pc/",
+      "date"     : "28 Aug 2016"
     } 
   
 ]
