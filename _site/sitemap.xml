@@ -2,15 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	  <url>
-		<loc>/from-cpp-to-java/</loc>
+		<loc>http://localhost:4000/from-cpp-to-java/</loc>
 	  </url>
 	
 	  <url>
-		<loc>/programming-guidelines/</loc>
+		<loc>http://localhost:4000/programming-guidelines/</loc>
 	  </url>
 	
 	  <url>
-		<loc>/endianness-of-your-pc/</loc>
+		<loc>http://localhost:4000/endianness-of-your-pc/</loc>
 	  </url>
 	
 </urlset>
