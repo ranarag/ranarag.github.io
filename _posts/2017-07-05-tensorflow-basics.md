@@ -30,7 +30,7 @@ pip install --upgrade tensorflow-gpu # for the GPU version
 ## Key-Components
 Tensorflow works by first creating a computational graph resembling the model we wish to run and then executing it.
 A program written using tensorflow must consist of the following components:
-1.Variables: variables in tensorflow are in memory buffers containing tensors,but unlike normal tensors that live only for a single execution of a graph, variables values live as long as the session exists.Variables value cease to exist after the session is closed. Tensorflow has the option of saving variables' value to disk and restoring them for later use.Variables must be initialized before executing a graph for first time.
+> 1.Variables: variables in tensorflow are in memory buffers containing tensors,but unlike normal tensors that live only for a single execution of a graph, variables values live as long as the session exists.Variables value cease to exist after the session is closed. Tensorflow has the option of saving variables' value to disk and restoring them for later use.Variables must be initialized before executing a graph for first time.
 During training operation variables get updated by default.We can keep a variable unchanged by explicitly setting its trainable parameter to false.
 {% highlight python %}
 >>> import tensorflow as tf
