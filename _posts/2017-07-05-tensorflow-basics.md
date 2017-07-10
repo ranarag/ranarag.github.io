@@ -47,7 +47,29 @@ name='b', trainable=False)
 >>> s.run(tf.initialize_variables(W)) # To only initialize W and not b
 {% endhighlight %}
 
-### More to add :)
+2. Placeholders: A placeholder can be thought of as a variable to which we can assign data at a later step.It is populated every single time a computational graph is run.A placeholder usually holds the input values to a model.Placeholder is created in tensorflow using tf.placeholder().Values in placeholders are entered using a feed_dict argument.
+{% highlight python %}
+>>> import tensorflow as tf
+>>> # Declaring a tensoflow Variable
+>>> W = tf.Variable(tf.random_uniform([2,3],stddev=0.5), # same a numpy.random.uniform
+name='weight') # name of the variable in the computational graph
+>>> # Setting variable b to non -trainable
+>>> b = tf.Variable(tf.zeros([3]), # same as numpy.zeros
+name='b', trainable=False)
+>>> x = tf.placeholder(tf.float32, name='x', shape=[None, 2]) # defining a placeholder named x of type float32 and shape [None ,2] (None, i.e. any number of rows)
+>>> y = tf.add(tf.matmul(x,W), b) # operation x.W + b
+>>> s = tf.Session() # session created
+>>> s.run(tf.initialize_all_variables()) # To initialize all the variables present in the current session
+>>> s.run(y,feed_dict={x:[[1., 2.]]} # placeholder x feeded with value
+{% endhighlight %}
+
+
+3. Operations: Operations in tensoflow are functions which applies some transformations to tensors on the computational graph. Like Variables and placeholders tensorflow operations can also be named for easy identification in the computational graph.An operation may consist of multiple kernels, for different types of devices.For example,  an operation may have seperate CPU and GPU kernels so that it can be excuted more efficiently on GPU.In the previous example tf.matmul() and tf.add() are two operations.As it relevant from the above example , tensorflow operations can be nested.
+
+4. Sessions: A tensorflow session is responsible for interacting with the computational graph thus created and make necessary arrangements for execution of the graph.It allocates resources required by the computational graph and holds the values of variables.Tensorflow session object(say sess) is created using the tf.Session() class.Finally we can the computational graph or a subpart of it using the sess.run() method.All sess.run does is identify all the dependencies that compose the relevant subgraph, ensure that all the placeholder variables in the concerned subgraph are filled using feed_dict,and then start executing the subgraph.
+
+
+
 ## comments
 
 Please feel free to comment in the comment section below
