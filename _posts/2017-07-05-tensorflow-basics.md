@@ -55,13 +55,13 @@ name='weight') # name of the variable in the computational graph
 >>> # Setting variable b to non -trainable
 >>> b = tf.Variable(tf.zeros([3]), # same as numpy.zeros
 name='b', trainable=False)
->>> x = tf.placeholder(tf.float32, name='x', shape=[None, 2]) # defining a placeholder named x of type float32 and shape [None ,2] (None, i.e. any number of rows)
+>>> x = tf.placeholder(tf.float32, name='x', shape=[None, 2]) # defining a placeholder named x of type float32
+>>> #and shape [None ,2] (None, i.e. any number of rows)
 >>> y = tf.add(tf.matmul(x,W), b) # operation x.W + b
 >>> s = tf.Session() # session created
 >>> s.run(tf.initialize_all_variables()) # To initialize all the variables present in the current session
 >>> s.run(y,feed_dict={x:[[1., 2.]]} # placeholder x feeded with value
 {% endhighlight %}
-
 
 * **Operations**: Operations in tensoflow are functions which applies some transformations to tensors on the computational graph. Like Variables and placeholders tensorflow operations can also be named for easy identification in the computational graph.An operation may consist of multiple kernels, for different types of devices.For example,  an operation may have seperate CPU and GPU kernels so that it can be excuted more efficiently on GPU.In the previous example tf.matmul() and tf.add() are two operations.As it relevant from the above example , tensorflow operations can be nested.
 
