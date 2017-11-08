@@ -1,6 +1,22 @@
 [
   
     {
+      "title"    : "TensorBoard Basics",
+      "category" : "Deep Learning",
+      "tags"     : "TensorBoard, Tensorflow, Python, Deep learning, and Neural Networks",
+      "url"      : "/tensorboard_basics/",
+      "date"     : "08 Nov 2017"
+    } ,
+  
+    {
+      "title"    : "Tensorflow Basics",
+      "category" : "Deep Learning",
+      "tags"     : "Tensorflow, Python, Deep learning, and Neural Networks",
+      "url"      : "/tensorflow-basics/",
+      "date"     : "06 Jul 2017"
+    } ,
+  
+    {
       "title"    : "from CPP to Java",
       "category" : "cpp to java cheatsheet",
       "tags"     : "coding, C, CPP, and Java",

@@ -2,6 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	  <url>
+		<loc>http://localhost:4000/tensorboard_basics/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/tensorflow-basics/</loc>
+	  </url>
+	
+	  <url>
 		<loc>http://localhost:4000/from-cpp-to-java/</loc>
 	  </url>
 	
