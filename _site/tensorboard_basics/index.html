@@ -179,6 +179,12 @@ It can also be installed as a standalone software from <a href="https://github.c
 <span class="n">i</span> <span class="o">=</span> <span class="mi">1</span>  
 <span class="n">writer</span><span class="o">.</span><span class="n">add_summary</span><span class="p">(</span><span class="n">s</span><span class="p">,</span><span class="n">i</span><span class="p">)</span></code></pre></figure>
 
+<h2 id="running-tensorboard">Running TensorBoard</h2>
+
+<p>Now that the event files have been created and stored in the directory[./graphs], running tensorboard with logdir pointing to the directory where the event files have been stored will give us a visualization of the model in the web browser.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">tensorboard</span> <span class="o">--</span><span class="n">logdir</span><span class="o">=./</span><span class="n">graphs</span></code></pre></figure>
+
 <h2 id="comments">Comments</h2>
 
 <p>Please feel free to comment in the comment section below</p>

@@ -60,6 +60,12 @@ i = 1
 writer.add_summary(s,i)
 {% endhighlight %}
 
+## Running TensorBoard
+
+Now that the event files have been created and stored in the directory[./graphs], running tensorboard with logdir pointing to the directory where the event files have been stored will give us a visualization of the model in the web browser.
+{% highlight python %}
+tensorboard --logdir=./graphs
+{% endhighlight %}
 ## Comments
 
 Please feel free to comment in the comment section below
