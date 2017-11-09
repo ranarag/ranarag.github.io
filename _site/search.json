@@ -1,6 +1,22 @@
 [
   
     {
+      "title"    : "Chapter 2",
+      "category" : "Reinforcement Learning-An Introduction",
+      "tags"     : "Reinforcement Learning and Reinforcement Learning-An Introduction",
+      "url"      : "/chapter2/",
+      "date"     : "09 Nov 2017"
+    } ,
+  
+    {
+      "title"    : "Chapter 1",
+      "category" : "Reinforcement Learning-An Introduction",
+      "tags"     : "Reinforcement Learning and Reinforcement Learning-An Introduction",
+      "url"      : "/chapter1/",
+      "date"     : "09 Nov 2017"
+    } ,
+  
+    {
       "title"    : "TensorBoard Basics",
       "category" : "Deep Learning",
       "tags"     : "TensorBoard, Tensorflow, Python, Deep learning, and Neural Networks",

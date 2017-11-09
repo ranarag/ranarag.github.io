@@ -5,9 +5,41 @@
     <description>A blog about deep learning in python</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 08 Nov 2017 23:27:36 +0530</pubDate>
-    <lastBuildDate>Wed, 08 Nov 2017 23:27:36 +0530</lastBuildDate>
+    <pubDate>Thu, 09 Nov 2017 22:26:45 +0530</pubDate>
+    <lastBuildDate>Thu, 09 Nov 2017 22:26:45 +0530</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>Chapter 2</title>
+        <description>&lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML&quot;&gt; &lt;/script&gt; &lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;Reinforcement Learning is different from other machine learning in the aspect that it &lt;em&gt;evaluates&lt;/em&gt; the actions rather than instructing than &lt;em&gt;instructing&lt;/em&gt; the correct actions.&lt;/p&gt; &lt;ol&gt; &lt;li&gt; &lt;p&gt;Purely evaluative feedback indicates how good an action is , but not whether it is best or worst action possible.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Purely instructive feedback indicates the correct action to take independent of the action already taken.&lt;/p&gt; &lt;/li&gt; &lt;/ol&gt; &lt;h2 id=&quot;k-armed-bandit-problem&quot;&gt;K-Armed Bandit Problem&lt;/h2&gt; &lt;p&gt;The k-armed bandit problem is similar to one-armed bandits, except that it has k levers instead of one. Here we are faced repeatedly with...</description>
+        <pubDate>Thu, 09 Nov 2017 22:06:20 +0530</pubDate>
+        <link>http://localhost:4000/chapter2/</link>
+        <guid isPermaLink="true">http://localhost:4000/chapter2/</guid>
+        
+        <category>Reinforcement Learning</category>
+        
+        <category>Reinforcement Learning-An Introduction</category>
+        
+        
+        <category>Reinforcement Learning-An Introduction</category>
+        
+      </item>
+    
+      <item>
+        <title>Chapter 1</title>
+        <description>&lt;h2 id=&quot;what-is-reinforcement-learning&quot;&gt;What is Reinforcement Learning?&lt;/h2&gt; &lt;p&gt;Reinforcement Learning refers to a class of problems which involve learning what to do, i.e. how to map situations to actions so as to maximize a numerical signal.In an essential way these are closed-loop problems because the learning system’s actions influence its later inputs. Moreover, unlike supervised learning it is not shown exmaples of desired behaviors,but instead it discovers and learns actions which would yield the maximum reward.Reinforcement learning is also different from unsupervised learning,because the goal of a reinforcement learning problem is to maximize a reward signal and not to find a hidden structure...</description>
+        <pubDate>Thu, 09 Nov 2017 18:17:09 +0530</pubDate>
+        <link>http://localhost:4000/chapter1/</link>
+        <guid isPermaLink="true">http://localhost:4000/chapter1/</guid>
+        
+        <category>Reinforcement Learning</category>
+        
+        <category>Reinforcement Learning-An Introduction</category>
+        
+        
+        <category>Reinforcement Learning-An Introduction</category>
+        
+      </item>
     
       <item>
         <title>TensorBoard Basics</title>

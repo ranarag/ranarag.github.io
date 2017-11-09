@@ -16,8 +16,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Tensorflow Basics</title>
-    <meta name="description" content="Getting Started With Tensorflow">
+    <title>Chapter 1</title>
+    <meta name="description" content="The Reinforcement Learning Problem">
 
     <!-- Google Authorship Markup -->
     <link rel="author" href="https://plus.google.com/None?rel=author">
@@ -25,24 +25,24 @@
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@royanurag19">
-    <meta name="twitter:title" content="Tensorflow Basics">
-    <meta name="twitter:description" content="Getting Started With Tensorflow">
+    <meta name="twitter:title" content="Chapter 1">
+    <meta name="twitter:description" content="The Reinforcement Learning Problem">
     
     <meta property="twitter:image:src" content="http://localhost:4000/assets/img/">
     
 
     <!-- Social: Facebook / Open Graph -->
-    <meta property="og:url" content="http://localhost:4000/tensorflow-basics/">
-    <meta property="og:title" content="Tensorflow Basics">
+    <meta property="og:url" content="http://localhost:4000/chapter1/">
+    <meta property="og:title" content="Chapter 1">
     
     <meta property="og:image" content="http://localhost:4000/assets/img/">
     
-    <meta property="og:description" content="Getting Started With Tensorflow">
+    <meta property="og:description" content="The Reinforcement Learning Problem">
     <meta property="og:site_name" content="A blog about coding and deep learning">
 
     <!-- Social: Google+ / Schema.org  -->
-    <meta itemprop="name" content="Tensorflow Basics"/>
-    <meta itemprop="description" content="Getting Started With Tensorflow">
+    <meta itemprop="name" content="Chapter 1"/>
+    <meta itemprop="description" content="The Reinforcement Learning Problem">
     <meta itemprop="image" content="http://localhost:4000/assets/img/blog-image.png"/>
 
     <!-- Favicon -->
@@ -68,7 +68,7 @@
     <meta name="theme-color" content="#0562DC">
 
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="http://localhost:4000/tensorflow-basics/">
+    <link rel="canonical" href="http://localhost:4000/chapter1/">
     <link rel="alternate" type="application/rss+xml" title="A blog about coding and deep learning" href="http://localhost:4000/feed.xml" />
 </head>
 
@@ -79,11 +79,11 @@
     <div class="content">
 
         
-            <time itemprop="datePublished" datetime="2017-07-06 02:55:58 +0530" class="date">06 Jul 2017</time>
+            <time itemprop="datePublished" datetime="2017-11-09 18:17:09 +0530" class="date">09 Nov 2017</time>
         
-        <h1 class="post-title" itemprop="name">Tensorflow Basics</h1>
+        <h1 class="post-title" itemprop="name">Chapter 1</h1>
         <!-- <img itemprop="image" class="img-rounded" src="/assets/img/blog-author.jpg" alt="Anurag Roy"> -->
-        <p itemprop="description" class="subtitle">Getting Started With Tensorflow</p>
+        <p itemprop="description" class="subtitle">The Reinforcement Learning Problem</p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
      <div class="search-wrapper">
@@ -137,65 +137,39 @@
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h2 id="what-is-tensorflow">What is Tensorflow?</h2>
+                <h2 id="what-is-reinforcement-learning">What is Reinforcement Learning?</h2>
 
-<p>Tensorflow is an open source software for machine learning developed by Google.Tensorflow, as one can get from its name, mainly handles matrices(or tensors), its mathematical operations and differentiation efficiently.It is just like Theano but with some extra features like  it can be used on distributed systems.</p>
+<p>Reinforcement Learning refers to a class of problems which involve learning what to do, i.e. how to map situations to actions so as to maximize a numerical signal.In an essential way these are closed-loop problems because the learning system’s actions influence its later inputs. Moreover, unlike supervised learning it is not shown exmaples of desired behaviors,but instead it discovers and learns actions which would yield the maximum reward.Reinforcement learning is also different from unsupervised learning,because the goal of a reinforcement learning problem is to maximize a reward signal and not to find a hidden structure from the data as in supervised learning.</p>
 
-<h2 id="installing-tensorflow">Installing Tensorflow</h2>
+<p>One of the challenges exclusive to reinforcement learning problems, is the trade-off between <strong>exploitation</strong> and <strong>exploration</strong>.
+To obtain a lot of reward, a reinforcement learning agent must prefer actions that it has tried in the past and found to be effective in producing reward. But to discover such actions it has to explore new actions.In exploring there is always a risk of failing at the task.So neither exploitation nor exploration can be performed exclusively without failing.</p>
 
-<p>Installing tensorflow &gt;= 1.1.0 can be done using python-pip</p>
-
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash">pip install <span class="nt">--upgrade</span> tensorflow <span class="c"># for the CPU only version</span>
-pip install <span class="nt">--upgrade</span> tensorflow-gpu <span class="c"># for the GPU version</span></code></pre></figure>
-
-<h2 id="key-components">Key-Components</h2>
-<p>Tensorflow works by first creating a computational graph resembling the model we wish to run and then executing it.
-A program written using tensorflow must consist of the following components:</p>
-
-<ul>
-  <li><strong>Variables</strong>: variables in tensorflow are in memory buffers containing tensors,but unlike normal tensors that live only for a single execution of a graph, variables values live as long as the session exists.Variables value cease to exist after the session is closed. Tensorflow has the option of saving variables’ value to disk and restoring them for later use.Variables must be initialized before executing a graph for first time.
-During training operation variables get updated by default.Tensorflow variables are created using <strong>tf.Variable()</strong>.We can keep a variable unchanged by explicitly setting its trainable parameter to false.</li>
-</ul>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">tensorflow</span> <span class="k">as</span> <span class="n">tf</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="c"># Declaring a tensoflow Variable</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">W</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">Variable</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">random_uniform</span><span class="p">([</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">],</span><span class="n">stddev</span><span class="o">=</span><span class="mf">0.5</span><span class="p">),</span> <span class="c"># same a numpy.random.uniform</span>
-<span class="n">name</span><span class="o">=</span><span class="s">'weight'</span><span class="p">)</span> <span class="c"># name of the variable in the computational graph</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="c"># Setting variable b to non -trainable</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">b</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">Variable</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">zeros</span><span class="p">([</span><span class="mi">1</span><span class="p">]),</span> <span class="c"># same as numpy.zeros</span>
-<span class="n">name</span><span class="o">=</span><span class="s">'b'</span><span class="p">,</span> <span class="n">trainable</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">s</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">Session</span><span class="p">()</span> <span class="c"># session created</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">s</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">initialize_all_variables</span><span class="p">())</span> <span class="c"># To initialize all the variables present in the current session</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">s</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">initialize_variables</span><span class="p">(</span><span class="n">W</span><span class="p">))</span> <span class="c"># To only initialize W and not b</span></code></pre></figure>
-
-<ul>
-  <li><strong>Placeholders</strong>: A placeholder can be thought of as a variable to which we can assign data at a later step.It is populated every single time a computational graph is run.A placeholder usually holds the input values to a model.Placeholder is created in tensorflow using <strong>tf.placeholder()</strong>.Values in placeholders are entered using a feed_dict argument.</li>
-</ul>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">tensorflow</span> <span class="k">as</span> <span class="n">tf</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="c"># Declaring a tensoflow Variable</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">W</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">Variable</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">random_uniform</span><span class="p">([</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">],</span><span class="n">stddev</span><span class="o">=</span><span class="mf">0.5</span><span class="p">),</span> <span class="c"># same a numpy.random.uniform</span>
-<span class="n">name</span><span class="o">=</span><span class="s">'weight'</span><span class="p">)</span> <span class="c"># name of the variable in the computational graph</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="c"># Setting variable b to non -trainable</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">b</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">Variable</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">zeros</span><span class="p">([</span><span class="mi">3</span><span class="p">]),</span> <span class="c"># same as numpy.zeros</span>
-<span class="n">name</span><span class="o">=</span><span class="s">'b'</span><span class="p">,</span> <span class="n">trainable</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">x</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">placeholder</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">float32</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s">'x'</span><span class="p">,</span> <span class="n">shape</span><span class="o">=</span><span class="p">[</span><span class="bp">None</span><span class="p">,</span> <span class="mi">2</span><span class="p">])</span> <span class="c"># defining a placeholder named x</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="c"># of type float32 and shape [None ,2] (None, i.e. any number of rows)</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">y</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">matmul</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">W</span><span class="p">),</span> <span class="n">b</span><span class="p">)</span> <span class="c"># operation x.W + b</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">s</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">Session</span><span class="p">()</span> <span class="c"># session created</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">s</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">initialize_all_variables</span><span class="p">())</span> <span class="c"># To initialize all the variables present in the current session</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">s</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">y</span><span class="p">,</span><span class="n">feed_dict</span><span class="o">=</span><span class="p">{</span><span class="n">x</span><span class="p">:[[</span><span class="mf">1.</span><span class="p">,</span> <span class="mf">2.</span><span class="p">]]}</span> <span class="c"># placeholder x feeded with value</span></code></pre></figure>
+<h2 id="key-elements">Key Elements</h2>
+<p>A reinforcement learning system consists of the following main elements:</p>
 
 <ul>
   <li>
-    <p><strong>Operations</strong>: Operations in tensoflow are functions which applies some transformations to tensors on the computational graph. Like Variables and placeholders tensorflow operations can also be named for easy identification in the computational graph.An operation may consist of multiple kernels, for different types of devices.For example,  an operation may have seperate CPU and GPU kernels so that it can be excuted more efficiently on GPU.In the previous example <strong>tf.matmul()</strong> and <strong>tf.add()</strong> are two operations.As it relevant from the above example , tensorflow operations can be nested.</p>
+    <p><strong>Policy</strong>: A policy defines the learning agent’s way of behaving at a given time.Put simply, a policy is a mapping from perceived states of the environment to actions to be taken when in those states.</p>
   </li>
   <li>
-    <p><strong>Sessions</strong>: A tensorflow session is responsible for interacting with the computational graph thus created and make necessary arrangements for execution of the graph.It allocates resources required by the computational graph and holds the values of variables.Tensorflow session object(say sess) is created using the <strong>tf.Session()</strong> class.Finally we can the computational graph or a subpart of it using the <strong>sess.run()</strong> method.All sess.run does is identify all the dependencies that compose the relevant subgraph, ensure that all the placeholder variables in the concerned subgraph are filled using feed_dict,and then start executing the subgraph.</p>
+    <p><strong>Reward Signal</strong>: A reward signal is a numeric value which the environment sends to the agent at each step.
+In reinforcement learning an agent’s sole objective is to maximize this reward signal over the long run.Reward signals may be stochastic functions of the state of the environment and the actions taken.</p>
   </li>
 </ul>
 
-<h2 id="comments">comments</h2>
+<figure class="highlight"><pre><code class="language-note" data-lang="note">        Note: The processes that generate reward signal must be un-alterable by the agent, 
+        otherwise the agent may change the problem altogether in its favour.</code></pre></figure>
+
+<ul>
+  <li>
+    <p><strong>Value Function</strong>: The Value function generates the value of a state. Value of a state is the total amount of reward an agent can expect to accumulate over the future , starting from that state.Values are different from rewards in the sense that rewards are generated directly by the environment, but values must be estimated and re-estimated from the sequences of observation an agent makes over its entire lifetime. Actions are chosen that bring about states of highest value.</p>
+  </li>
+  <li>
+    <p><strong>Model</strong> : Here model refers to a model of the environment.This is something that mimics the behavior of the environment.Reinforcement learining methods that use models are called model based methods, as opposed to model-free methods that are explicitly trial and error learners viewed as almost the opposite of planning.</p>
+  </li>
+</ul>
+
+<h1 id="comments">Comments</h1>
 
 <p>Please feel free to comment in the comment section below</p>
 
@@ -203,15 +177,15 @@ During training operation variables get updated by default.Tensorflow variables 
 
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://localhost:4000/tensorflow-basics/%20via%20&#64;royanurag19&hashtags=Tensorflow,Python,Deep learning,Neural Networks,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://localhost:4000/chapter1/%20via%20&#64;royanurag19&hashtags=Reinforcement Learning,Reinforcement Learning-An Introduction,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook"href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/tensorflow-basics/"
+    <a aria-label="Share on Facebook"href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/chapter1/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://localhost:4000/tensorflow-basics/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://localhost:4000/chapter1/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>
@@ -241,7 +215,7 @@ During training operation variables get updated by default.Tensorflow variables 
         disqus_loaded = true;
         var disqus_shortname = 'ranarag-github-io-1';
         var disqus_title = '';
-        var disqus_url = '/tensorflow-basics/';
+        var disqus_url = '/chapter1/';
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
