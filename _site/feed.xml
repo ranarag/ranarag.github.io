@@ -5,9 +5,9 @@
     <description>A blog about deep learning in python</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 09 Nov 2017 22:26:45 +0530</pubDate>
-    <lastBuildDate>Thu, 09 Nov 2017 22:26:45 +0530</lastBuildDate>
-    <generator>Jekyll v3.6.2</generator>
+    <pubDate>Fri, 31 Aug 2018 09:51:49 +0530</pubDate>
+    <lastBuildDate>Fri, 31 Aug 2018 09:51:49 +0530</lastBuildDate>
+    <generator>Jekyll v3.8.3</generator>
     
       <item>
         <title>Chapter 2</title>
@@ -65,7 +65,7 @@
     
       <item>
         <title>Tensorflow Basics</title>
-        <description>&lt;h2 id=&quot;what-is-tensorflow&quot;&gt;What is Tensorflow?&lt;/h2&gt; &lt;p&gt;Tensorflow is an open source software for machine learning developed by Google.Tensorflow, as one can get from its name, mainly handles matrices(or tensors), its mathematical operations and differentiation efficiently.It is just like Theano but with some extra features like it can be used on distributed systems.&lt;/p&gt; &lt;h2 id=&quot;installing-tensorflow&quot;&gt;Installing Tensorflow&lt;/h2&gt; &lt;p&gt;Installing tensorflow &amp;gt;= 1.1.0 can be done using python-pip&lt;/p&gt; &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;pip install &lt;span class=&quot;nt&quot;&gt;--upgrade&lt;/span&gt; tensorflow &lt;span class=&quot;c&quot;&gt;# for the CPU only version&lt;/span&gt; pip install &lt;span class=&quot;nt&quot;&gt;--upgrade&lt;/span&gt; tensorflow-gpu &lt;span class=&quot;c&quot;&gt;# for the GPU version&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt; &lt;h2 id=&quot;key-components&quot;&gt;Key-Components&lt;/h2&gt; &lt;p&gt;Tensorflow works by first creating a computational graph resembling the...</description>
+        <description>&lt;h2 id=&quot;what-is-tensorflow&quot;&gt;What is Tensorflow?&lt;/h2&gt; &lt;p&gt;Tensorflow is an open source software for machine learning developed by Google.Tensorflow, as one can get from its name, mainly handles matrices(or tensors), its mathematical operations and differentiation efficiently.It is just like Theano but with some extra features like it can be used on distributed systems.&lt;/p&gt; &lt;h2 id=&quot;installing-tensorflow&quot;&gt;Installing Tensorflow&lt;/h2&gt; &lt;p&gt;Installing tensorflow &amp;gt;= 1.1.0 can be done using python-pip&lt;/p&gt; &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;pip &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--upgrade&lt;/span&gt; tensorflow &lt;span class=&quot;c&quot;&gt;# for the CPU only version&lt;/span&gt; pip &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--upgrade&lt;/span&gt; tensorflow-gpu &lt;span class=&quot;c&quot;&gt;# for the GPU version&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt; &lt;h2 id=&quot;key-components&quot;&gt;Key-Components&lt;/h2&gt; &lt;p&gt;Tensorflow works by first creating a computational graph...</description>
         <pubDate>Thu, 06 Jul 2017 02:55:58 +0530</pubDate>
         <link>http://localhost:4000/tensorflow-basics/</link>
         <guid isPermaLink="true">http://localhost:4000/tensorflow-basics/</guid>
