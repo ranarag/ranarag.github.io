@@ -1,0 +1,140 @@
+I"<.<script type="text/javascript" async="" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>Reinforcement Learning is different from other machine learning in the aspect that it <em>evaluates</em> the actions rather than instructing than <em>instructing</em> the correct actions.</p>
+<ol>
+  <li>
+    <p>Purely evaluative feedback indicates how good an action is , but not whether it is best or worst action possible.</p>
+  </li>
+  <li>
+    <p>Purely instructive feedback indicates the correct action to take independent of the action already taken.</p>
+  </li>
+</ol>
+
+<h2 id="k-armed-bandit-problem">K-Armed Bandit Problem</h2>
+
+<p>The k-armed bandit problem is similar to one-armed bandits, except that it has k levers instead of one. Here we are faced repeatedly with a choice among k different levers, or actions. Here the rewards are the payoffs for hitting the jackpot.</p>
+
+<p>In the problem, each of the k actions has an expected or mean reward given that that action is selected; let us call this the value of that action.We denote the action selected on time step t as <script type="math/tex">A_t</script> , and the corresponding reward as <script type="math/tex">R_t</script>. The value then of an arbitrary action <script type="math/tex">a</script>, denoted <script type="math/tex">q_∗(a)</script>, is the expected reward given
+that a is selected:</p>
+
+<script type="math/tex; mode=display">q_∗(a) = E[R_t | A_t = a]</script>
+
+<p>We denote the estimated value of action <script type="math/tex">a</script> at time <script type="math/tex">t</script> as <script type="math/tex">Q_t(a) \approx q_*(a)</script> .</p>
+
+<p>Actions whose <script type="math/tex">Q_t</script> value is the highest at time <script type="math/tex">t</script>, are called,  <em>greedy</em> actions.All the other actions at time <script type="math/tex">t</script> are called <em>non-greedy</em> actions.Selecting a greedy action is said to be <em>exploitation</em> whereas selecting a non-greedy action is said to be <em>evaluation</em>.Exploitation is the right thing to do to maximize the expected on the one step, but exploration may produce greater total reward in the long run.</p>
+
+<h2 id="action-value-methods">Action Value Methods</h2>
+
+<p>So now we know that the true value of an action is the  mean reward when the action is chosen.There can be many ways of calcuate this, one way can be:</p>
+
+<script type="math/tex; mode=display">Q_t(a) = \frac{\text{sum of rewards when a is taken prior to t}}{\text{number of times a is taken prior to t}} = \frac{\sum_{i=0}^{t-1} R_i \cdot 1_{A_i = a}}{\sum_{i=0}^{t-1} 1_{A_i = a}}</script>
+
+<p>where <script type="math/tex">1_predicate</script> denotes the random variable that is <script type="math/tex">1</script> if <script type="math/tex">predicate</script> is true and <script type="math/tex">0</script> if it is not. If the denominator is zero, then we instead denote <script type="math/tex">Q_t(a)</script> as some default value, such as <script type="math/tex">Q_1(a) = 0</script> . As the denominator goes to infnity, by the law of large numbers, <script type="math/tex">Q_t(a)</script> converges to <script type="math/tex">q_*(a)</script>. We call this the <em>sample-average</em> method for estimating action values because each <em>estimate</em> is an average of the <em>sample</em> of relevant rewards.</p>
+
+<p>The <em>greedy</em> actions selection method (a.k.a exploitation) can be represented as:</p>
+
+<script type="math/tex; mode=display">A_t = \underset{x}{\operatorname{argmax}}Q_t(a)</script>
+
+<p>Where <script type="math/tex">argmax_a</script> denotes the value of <script type="math/tex">a</script> at which the expressio that follows is maximized(with ties broken arbitrarily). A simple alternative to this purely greedy approach is a <em><script type="math/tex">\varepsilon-greedy</script></em> approach where with probability <script type="math/tex">\varepsilon</script> , select an action from the set of <em>non-greedy</em> actions unformly and randomly.</p>
+
+<h2 id="incremental-implementation">Incremental Implementation</h2>
+
+<p>We would now dive into the implementation of the above formulae to reinforcement learning problems.
+Lets concentrate on a single action <script type="math/tex">a</script>. Let <script type="math/tex">R_i</script> denote the reward received after the <script type="math/tex">ith</script> selection of this action.Let <script type="math/tex">Q_n</script> denote the estimate of this action after it has been selected <em>n-1</em> times. Then we can write:</p>
+
+<script type="math/tex; mode=display">Q_n(a) = \frac{R_1 + R_2 +...+ R_{n-1}}{n-1}</script>
+
+<p>Keeping a record of all the rewards will be inefficient in terms of memory, so we would tweak the formula a little bit:</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{align}
+Q_{n+1} & = \frac{1}{n}\sum_{i=1}^{n} R_i \\
+& = \frac{1}{n}\bigl(R_n + \sum_{i=1}^{n-1} R_i\bigr) \\
+& = \frac{1}{n}\bigl(R_n + (n-1)\frac{1}{n-1}\sum_{i=1}^{n-1} R_i\bigr) \\
+& = \frac{1}{n}\bigl(R_n + (n-1)Q_n\bigr) \\
+& = \frac{1}{n}\bigl(R_n + nQ_n - Q_n\bigr) \\
+& = Q_n + \frac{1}{n}[R_n - Q_n]
+\end{align} %]]></script>
+
+<h2 id="a-simple-bandit-algorithm">A Simple Bandit Algorithm</h2>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{align}
+& \text{Initialize, for a } = 1 \text{ to k}: \\
+  
+  & \quad Q(a) \leftarrow 0 \\
+  & \quad N(a) \leftarrow 0 \\
+  
+& \text{Repeat Forever:} \\
+  & \quad A \leftarrow \begin{cases} 
+                \underset{a}{\operatorname{argmax}}Q(a)  \text{ with probability 1-} \varepsilon \text{ (breaking ties randomly)} \\
+                \text{ a random action with probability } \varepsilon \\
+                \end{cases} \\
+
+& R \leftarrow bandit(a) \\
+& N(A) \leftarrow N(A) + 1 \\
+& Q(A) \leftarrow Q(A) + \frac{1}{N(A)}[R - Q(A)]
+\end{align} %]]></script>
+
+<p>The  <script type="math/tex">\frac{1}{N(A)}</script> parameter (a.k.a <em>StepSize</em>) changes from time step to time step and can also be written as <script type="math/tex">\alpha_{t}(a)</script>.</p>
+
+<p><script type="math/tex">\alpha_{t}(a)</script> is any function that satisfies the following conditions :</p>
+
+<script type="math/tex; mode=display">\sum_{t=1}^{\infty}\alpha_{t}(a) = \infty  \text{   and   }  \sum_{t=1}^{\infty} \alpha_{t}^2(a) \lt \infty</script>
+
+<p>For the time-being let us consider <script type="math/tex">\alpha_t</script> to be a constant (say <script type="math/tex">\alpha \epsilon (0,1]</script> ).
+We can also write <script type="math/tex">Q_{n+1}</script> in terms of <script type="math/tex">Q_1</script>:</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{align}
+Q_{n+1} & = Q_n + \alpha [R_n - Q_n] \\
+& = \alpha R_n + (1 - \alpha)Q_n \\
+& = \alpha R_n + (1 - \alpha)[\alpha R_n + (1 - \alpha)Q_{n-1}] \\
+& = \alpha R_n + (1 - \alpha)[\alpha R_n + (1 - \alpha)Q_{n-1}] \\
+& = \alpha R_n + (1 - \alpha)\alpha R_{n-1} + (1 - \alpha)^2 Q_{n-1} \\
+& = \alpha R_n + (1 - \alpha)\alpha R_{n-1} + (1 - \alpha)^2 \alpha R_{n-2} + \\
+& ... + (1 - \alpha)^{n-1}\alpha R_1 + (1 - \alpha)^n Q_1 \\
+& = (1 - \alpha)^n Q_1 + \sum_{i=1}^{n} \alpha(1 - \alpha)^{n-i}R_i \\
+\end{align} %]]></script>
+
+<p>Choosing a positive <script type="math/tex">Q_1(a)</script> value helps the model to explore more and thus learn better in the long run.</p>
+
+<h2 id="upper-confidence-bound-action-selection-method">Upper-Confidence-Bound Action Selection Method</h2>
+
+<p><script type="math/tex">\varepsilon</script>-greedy action selection method forces the non-greedy actions to be tried, but indiscriminately, with no preference to those that are nearly greedy. It would be better to select among the non-greedy actions according to their potential for actually being optimal, taking into account both how close their estimates are to being maximal and the uncertanities in those estimates.</p>
+
+<p>One effective way of doing this is to select action as:</p>
+
+<script type="math/tex; mode=display">A_t = \underset{a}{\operatorname{argmax}}\Bigl[Qt(a) +  \sqrt[\leftroot{-2}\uproot{2}c]{\tfrac{\log t}{N_t(a)}} \Bigr]</script>
+
+<p>where <script type="math/tex">\log t</script> denotes the natural logarithm of <script type="math/tex">t</script> , <script type="math/tex">N_t(a)</script> denotes the number of times that action <script type="math/tex">a</script> has been selected prior to time <script type="math/tex">t</script> and the number  <script type="math/tex">c \gt 0</script> controls the degree of exploration. If <script type="math/tex">N_t(a) = 0</script>, then <script type="math/tex">a</script> is considered to be a maximizing action.</p>
+
+<p>The idea of this method is that the square-root term is a measure of the uncertainity or variance in the measure of <script type="math/tex">a</script>’s value.Each time action <script type="math/tex">a</script> is selected <script type="math/tex">N_t(a)</script> increases by one and the contribution of the square-root term in selecting action <script type="math/tex">A_t</script> is decreased.That means that if <script type="math/tex">a</script> is chosen a lot of times then chances of it being selected depends mostly on <script type="math/tex">Q_t</script>, which should be the behaviour of our model, logically.</p>
+
+<h2 id="gradient-bandit-algorithms">Gradient Bandit Algorithms</h2>
+
+<p>In this section we consider learning a numerical preference <script type="math/tex">H_t(a)</script> for each action <script type="math/tex">a</script>. The larger the preference more often that action is tken, but the preference has no interpretation in terms of reward.Since the relative preference is important we take softmax over all the preferences at time <script type="math/tex">t</script> which we denote as <script type="math/tex">\pi_{t}(a)</script>.</p>
+
+<script type="math/tex; mode=display">Pr\{A_t=a\} = \frac{\varepsilon^{H_t(a)}}{\sum_{b=1}^{k} \varepsilon^{H_t(b)}} = \pi_{t}(a)</script>
+
+<p>There is a natural learning algorithm for this setting based on the idea of stochastic gradient ascent.On each step, after selecting the action <script type="math/tex">A_t</script> and receiving the reward <script type="math/tex">R_t</script>, the preferences are updated by:</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{align}
+H_{t+1}(A_t) & = H_t(A_t) + \alpha(R_t - \bar R_t)(1 - \pi_{t}(A_t)),   \text{             and    } \\
+H_{t+1}(a)  & = H_t(a) - \alpha(R_t - \bar R_t)(\pi_{t}(a))  \text{   } \forall a \neq A_t \\
+\end{align} %]]></script>
+
+<p>where <script type="math/tex">\alpha \gt 0</script> is step-size parameter, and <script type="math/tex">\bar R_t \in \mathbb R</script> is the average of all the rewards up throught and including time <script type="math/tex">t</script>, which can be computed incrementally.The <script type="math/tex">\bar R_t</script> serves as the baseline with which the reward is compared. If the reward is higher than the baseline, then the probability of taking <script type="math/tex">A_t</script> in the future is increased, and if the reward is below baseline, then the probability is decreased.The non-selected actions move in the opposite direction.</p>
+
+<p>For the represenation of the Bandit Gradient Algorithm as Stochastic Gradient Ascent please refer section-2.8(page 29) of the <a href="http://incompleteideas.net/sutton/book/bookdraft2017nov5.pdf">book</a>.</p>
+
+<h4 id="note-this-a-summarization-of-chapter-2-of-the-book-reinforcement-learning-an-introduction">Note: This a summarization of Chapter 2 of the book: <a href="http://incompleteideas.net/sutton/book/bookdraft2017nov5.pdf">Reinforcement Learning: An Introduction</a></h4>
+
+<h2 id="comments">Comments</h2>
+
+<p>Please feel free to comment in the comment section below</p>
+:ET

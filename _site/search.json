@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "How to Install Packages Locally in Linux",
+      "category" : "Systems",
+      "tags"     : "Linux, systems, server accounts, and hacks",
+      "url"      : "/how-to-install-packages-locally-in-linux/",
+      "date"     : "13 Sep 2019"
+    } ,
+  
+    {
       "title"    : "Chapter 2",
       "category" : "Reinforcement Learning-An Introduction",
       "tags"     : "Reinforcement Learning and Reinforcement Learning-An Introduction",
