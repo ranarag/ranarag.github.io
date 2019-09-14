@@ -1,0 +1,48 @@
+I"�
+<h2 id="some-prerequisites">Some Prerequisites</h2>
+
+<h3 id="what-is-a-variable">What is a variable?</h3>
+
+<p>A  variable is a storage location for a value. Linux has environment variables. It can store strings, numbers , etc. just like the variables in C, C++, python, or any other programming language. It even has a scope, just like the variables in other programming languages! Based on scopes Linux environments variables can be classified into 2 different categories:</p>
+
+<ol>
+  <li>Local Variables</li>
+  <li>Global Variable</li>
+</ol>
+
+<h4 id="local-variables">Local Variables</h4>
+<p>Local variables are set by typing  &lt;variable_name&gt;= &lt;variable_value&gt; (i.e without the export command).
+Local variables can only be accessed by the terminal where it is declared and not by any program even if it is run from the terminal itself.</p>
+
+<h4 id="global-variables">Global Variables</h4>
+<p>Global variables are set by typing export  &lt;variable_name&gt;= &lt;variable_value&gt;. The export command ensures that the variable be exported to any child process forked from that terminal. In short, it ensure that the variable set is global.</p>
+
+<h4 id="understanding-the-difference">Understanding the Difference</h4>
+
+<p>There is a simple way to understand the difference between local and global environmnent variables.</p>
+
+<p>Open a terminal</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">export </span><span class="nv">global_var</span><span class="o">=</span><span class="s2">"This is a global variable"</span>
+local_var <span class="o">=</span> <span class="s2">"This is a local variable"</span>
+<span class="nb">echo</span> <span class="nv">$global_var</span>
+<span class="nb">echo</span> <span class="nv">$local_var</span></code></pre></figure>
+
+<p>Now open tmuxa tmux session. Inside the session, type:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">echo</span> <span class="nv">$global_var</span>
+<span class="nb">echo</span> <span class="nv">$local_var</span></code></pre></figure>
+
+<p>You would notice that the local variable inside the tmux session contains no value whereas the global variable outputs the value that it has been assigned.
+You can see all the variables defined using the command ‘env’.
+A variable is unset by typing unset &lt;variable_name&gt;</p>
+
+<h4 id="some-important-paths-in-linux">Some Important Paths in Linux:</h4>
+<p>In this journey of learning how to install  packages locally in linux, we need to about two very important global environment variables:</p>
+<ol>
+  <li>PATH</li>
+  <li>LD_LIBRARY_PATH</li>
+</ol>
+
+<p>(Not yet Finished!! :P)</p>
+:ET

@@ -2,35 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	  <url>
-		<loc>http://localhost:4000/how-to-install-packages-locally-in-linux/</loc>
+		<loc>/how-to-install-packages-locally-in-linux/</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://localhost:4000/chapter2/</loc>
+		<loc>/chapter2/</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://localhost:4000/chapter1/</loc>
+		<loc>/chapter1/</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://localhost:4000/tensorboard_basics/</loc>
+		<loc>/tensorboard_basics/</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://localhost:4000/tensorflow-basics/</loc>
+		<loc>/tensorflow-basics/</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://localhost:4000/from-cpp-to-java/</loc>
+		<loc>/from-cpp-to-java/</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://localhost:4000/programming-guidelines/</loc>
+		<loc>/programming-guidelines/</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://localhost:4000/endianness-of-your-pc/</loc>
+		<loc>/endianness-of-your-pc/</loc>
 	  </url>
 	
 </urlset>

@@ -42,5 +42,7 @@ links:
   - title: About Me
     url: /about
 
+plugins:
+  - jekyll-coffeescript
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
