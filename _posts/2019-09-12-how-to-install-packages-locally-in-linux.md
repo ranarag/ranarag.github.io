@@ -59,4 +59,11 @@ In this journey of learning how to install  packages locally in linux, we need t
 1. PATH
 2. LD_LIBRARY_PATH
 
+### what is PATH?
+PATH is a list of colon separated directories in which the system looks for executable files. When we type a command the system looks for the executable binaries in each of these directories and executes them if found or else returns an error stating 'command not found'. This lookup by the system occurs in a left-to-right fashion. That is,the system first looks for the executable in the left-most directory in the colon separated list and proceeds on to the next if not found.
+This sequence of lookup is necessary to understand because if you have two different executable files with the same name but at different locations(obviously!!), say /usr/local/bin/python and ./anaconda/bin/python , and you want to execute the ./anaconda/bin/python ,then you would have to put ./anaconda/bin(absolute location is preferred, this is a relative location) to the left of /usr/bin in the colon separated list of PATH.
+
+### What is LD_LIBRARY_PATH?
+Similar to PATH, LD_LIBRARY_PATH stores the  colon separated list of  directories where the system should search for libraries first, before the standard set of directories. Just like PATH, the lookup in the LD_LIBRARY_PATH also occurs in a left-to-right manner.
+
 (Not yet Finished!! :P)
