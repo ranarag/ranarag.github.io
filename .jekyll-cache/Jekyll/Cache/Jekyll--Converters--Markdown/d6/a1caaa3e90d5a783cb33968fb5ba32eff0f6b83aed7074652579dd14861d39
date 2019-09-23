@@ -1,4 +1,4 @@
-I"¢<h2 id="some-prerequisites">Some Prerequisites</h2>
+I"ñ<h2 id="some-prerequisites">Some Prerequisites</h2>
 
 <h3 id="what-is-a-variable">What is a variable?</h3>
 
@@ -49,6 +49,18 @@ This sequence of lookup is necessary to understand because if you have two diffe
 
 <h3 id="what-is-ld_library_path">What is LD_LIBRARY_PATH?</h3>
 <p>Similar to PATH, LD_LIBRARY_PATH stores the  colon separated list of  directories where the system should search for libraries first, before the standard set of directories. Just like PATH, the lookup in the LD_LIBRARY_PATH also occurs in a left-to-right manner.</p>
+
+<h3 id="hands-on">Hands On!!!</h3>
+<p>In this demo we will be installing GNU-aspell locally.</p>
+
+<ol>
+  <li>Download and extract the aspell source package: Download the package from this <a href="https://ftp.gnu.org/gnu/aspell/aspell-0.60.7.tar.gz">link</a> and extract it using</li>
+</ol>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"> <span class="nb">tar</span> <span class="nt">-xf</span> aspell-0.60.7.tar.gz </code></pre></figure>
+<p>command.</p>
+<ol>
+  <li>Go inside the directory and type <code class="highlighter-rouge">./configure</code></li>
+</ol>
 
 <p>(Not yet Finished!! :P)</p>
 :ET

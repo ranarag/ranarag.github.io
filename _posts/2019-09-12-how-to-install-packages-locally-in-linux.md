@@ -66,4 +66,22 @@ This sequence of lookup is necessary to understand because if you have two diffe
 ### What is LD_LIBRARY_PATH?
 Similar to PATH, LD_LIBRARY_PATH stores the  colon separated list of  directories where the system should search for libraries first, before the standard set of directories. Just like PATH, the lookup in the LD_LIBRARY_PATH also occurs in a left-to-right manner.
 
-(Not yet Finished!! :P)
+### Hands On!!!
+In this demo we will be installing GNU-aspell locally.
+
+1. Download the package from this [link](https://ftp.gnu.org/gnu/aspell/aspell-0.60.7.tar.gz) and extract it using {% highlight bash %} tar -xf aspell-0.60.7.tar.gz {% endhighlight %} command.
+2. Go inside the directory and type ```./configure --help```. This will list the options for changing the default setup locations among other things. Have a look at the options, especially the ```--prefix```, ```--exec-prefix``` , ```--oldincludedir``` and ```--datadir``` options. We will be using these.
+3. Now run configure with the options containing the locations you desire. As an example let me share what I have done: {% highlight bash %} ./configure --prefix='/home/anuragroy/local_install_dirs/' --exec-prefix='/home/anuragroy/local_install_dirs/' --oldincludedir='/home/anuragroy/local_install_dirs/include/' --datadir='/home/anuragroy/local_install_dirs/data/aspell/' {% endhighlight %}. Here anuragroy is my username and local_install_dirs can be thought of as a substitute for the ```/usr/local``` directory.
+4. After the configuration is done type: {%highlight bash %} make; make clean {% endhighlight %} to install the package.
+5. What now remains is to set the required environment variables in the **.bashrc** file. I have added the following lines:
+{% highlight bash %}
+export PATH="/home/anuragroy/local_install_dirs/bin:$PATH"
+export LD_LIBRARY_PATH="/home/anuragroy/local_install_dirs/lib:$LD_LIBRARY_PATH"
+export C_INCLUDE_PATH="/home/anuragroy/local_install_dirs/include:$C_INCLUDE_PATH"
+export CPLUS_INCLUDE_PATH="/home/anuragroy/local_install_dirs/include:$CPLUS_INCLUDE_PATH"
+export MANPATH="/home/anuragroy/local_install_dirs/data/aspell/man:$MANPATH"
+{% endhighlight %}
+And now aspell is installed!!! :-)
+
+Note: Python packages relying on local libraries(for example libraries located in ~/local_install_dirs/lib), headers(for example libraries located in ~/local_install_dirs/include) will return a _cannot find.._ error.There is a way around though ---clone the repository of the package and modify the relevant variables accordingly(like **library_dirs** for libraries and **include_dirs** for headers).
+<!-- (Not yet Finished!! :P) -->
