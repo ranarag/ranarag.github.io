@@ -81,7 +81,7 @@ export C_INCLUDE_PATH="/home/anuragroy/local_install_dirs/include:$C_INCLUDE_PAT
 export CPLUS_INCLUDE_PATH="/home/anuragroy/local_install_dirs/include:$CPLUS_INCLUDE_PATH"
 export MANPATH="/home/anuragroy/local_install_dirs/data/aspell/man:$MANPATH"
 {% endhighlight %}
-And now aspell is installed!!! :-)
+And now aspell is installed!!! :smile:
 
 Note: Python packages relying on local libraries(for example libraries located in ~/local_install_dirs/lib), headers(for example libraries located in ~/local_install_dirs/include) will return a _cannot find.._ error.There is a way around though ---clone the repository of the package and modify the relevant variables accordingly(like **library_dirs** for libraries and **include_dirs** for headers).
 <!-- (Not yet Finished!! :P) -->
