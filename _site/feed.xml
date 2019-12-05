@@ -5,9 +5,53 @@
     <description>A blog about deep learning in python</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 05 Dec 2019 23:45:25 +0530</pubDate>
-    <lastBuildDate>Thu, 05 Dec 2019 23:45:25 +0530</lastBuildDate>
+    <pubDate>Thu, 05 Dec 2019 23:59:14 +0530</pubDate>
+    <lastBuildDate>Thu, 05 Dec 2019 23:59:14 +0530</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Sampling Theory and Distributions</title>
+        <description>&lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML&quot;&gt; &lt;/script&gt; &lt;h1 id=&quot;sampling-theory&quot;&gt;Sampling Theory&lt;/h1&gt; &lt;p&gt;Data scientists are required to draw conclusions about a group, a.k.a &lt;em&gt;population&lt;/em&gt; from a few &lt;em&gt;samples&lt;/em&gt; of it because getting the entire population is intractable. This process of drawing samples is called &lt;em&gt;sampling&lt;/em&gt;. There are different kinds of sampling , few of which are:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Random sampling&lt;/li&gt; &lt;li&gt;Clustered sampling&lt;/li&gt; &lt;li&gt;Stratified sampling&lt;/li&gt; &lt;li&gt;Systematic sampling You can read about them over &lt;a href=&quot;https://medcraveonline.com/BBIJ/BBIJ-05-00149.pdf&quot;&gt;here&lt;/a&gt; The drawing of conclusions or &lt;em&gt;inference&lt;/em&gt; about the population from the samples is called &lt;em&gt;statistical inference&lt;/em&gt;.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;In this section we will consider two different types of samples:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Sampling with...</description>
+        <pubDate>Thu, 05 Dec 2019 01:20:36 +0530</pubDate>
+        <link>http://localhost:4000/stats-101/</link>
+        <guid isPermaLink="true">http://localhost:4000/stats-101/</guid>
+        
+        <category>statistics</category>
+        
+        <category>hypthesis testing</category>
+        
+        <category>samples</category>
+        
+        
+        <category>statistics</category>
+        
+        <category>mathematics</category>
+        
+        <category>probability</category>
+        
+      </item>
+    
+      <item>
+        <title>Sampling Theory and Distributions</title>
+        <description>&lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML&quot;&gt; &lt;/script&gt; &lt;h1 id=&quot;sampling-theory&quot;&gt;Sampling Theory&lt;/h1&gt; &lt;p&gt;Data scientists are required to draw conclusions about a group, a.k.a &lt;em&gt;population&lt;/em&gt; from a few &lt;em&gt;samples&lt;/em&gt; of it because getting the entire population is intractable. This process of drawing samples is called &lt;em&gt;sampling&lt;/em&gt;. There are different kinds of sampling , few of which are:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Random sampling&lt;/li&gt; &lt;li&gt;Clustered sampling&lt;/li&gt; &lt;li&gt;Stratified sampling&lt;/li&gt; &lt;li&gt;Systematic sampling You can read about them over &lt;a href=&quot;https://medcraveonline.com/BBIJ/BBIJ-05-00149.pdf&quot;&gt;here&lt;/a&gt; The drawing of conclusions or &lt;em&gt;inference&lt;/em&gt; about the population from the samples is called &lt;em&gt;statistical inference&lt;/em&gt;.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;In this section we will consider two different types of samples:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Sampling with...</description>
+        <pubDate>Wed, 06 Nov 2019 01:20:36 +0530</pubDate>
+        <link>http://localhost:4000/sampling_theory_and_dist/</link>
+        <guid isPermaLink="true">http://localhost:4000/sampling_theory_and_dist/</guid>
+        
+        <category>statistics</category>
+        
+        <category>hypthesis testing</category>
+        
+        <category>samples</category>
+        
+        
+        <category>statistics</category>
+        
+        <category>mathematics</category>
+        
+        <category>probability</category>
+        
+      </item>
     
       <item>
         <title>How to Install Packages Locally in Linux</title>

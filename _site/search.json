@@ -1,6 +1,22 @@
 [
   
     {
+      "title"    : "Sampling Theory and Distributions",
+      "category" : "statisticsmathematicsprobability",
+      "tags"     : "statistics, hypthesis testing, and samples",
+      "url"      : "/stats-101/",
+      "date"     : "05 Dec 2019"
+    } ,
+  
+    {
+      "title"    : "Sampling Theory and Distributions",
+      "category" : "statisticsmathematicsprobability",
+      "tags"     : "statistics, hypthesis testing, and samples",
+      "url"      : "/sampling_theory_and_dist/",
+      "date"     : "06 Nov 2019"
+    } ,
+  
+    {
       "title"    : "How to Install Packages Locally in Linux",
       "category" : "Systems",
       "tags"     : "Linux, systems, server accounts, and hacks",

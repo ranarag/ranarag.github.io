@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sampling Theory and Distributions"
-date: 2019-12-04 19:50:36
+date: 2019-11-05 19:50:36
 image: '/assets/img/'
 description:
 tags:
