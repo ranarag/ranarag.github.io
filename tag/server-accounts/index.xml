@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>server accounts | Anurag Roy</title>
-    <link>/tag/server-accounts/</link>
-      <atom:link href="/tag/server-accounts/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://ranarag.github.io/tag/server-accounts/</link>
+      <atom:link href="https://ranarag.github.io/tag/server-accounts/index.xml" rel="self" type="application/rss+xml" />
     <description>server accounts</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 12 Sep 2019 20:41:53 +0530</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://ranarag.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>server accounts</title>
-      <link>/tag/server-accounts/</link>
+      <link>https://ranarag.github.io/tag/server-accounts/</link>
     </image>
     
     <item>
       <title>How to Install Packages Locally in Linux</title>
-      <link>/post/how_to_install_packages_locally_in_linux/</link>
+      <link>https://ranarag.github.io/post/how_to_install_packages_locally_in_linux/</link>
       <pubDate>Thu, 12 Sep 2019 20:41:53 +0530</pubDate>
-      <guid>/post/how_to_install_packages_locally_in_linux/</guid>
+      <guid>https://ranarag.github.io/post/how_to_install_packages_locally_in_linux/</guid>
       <description>&lt;h2 id=&#34;some-prerequisites&#34;&gt;Some Prerequisites&lt;/h2&gt;
 &lt;h3 id=&#34;what-is-a-variable&#34;&gt;What is a variable?&lt;/h3&gt;
 &lt;p&gt;A variable is a storage location for a value. Linux has environment variables. It can store strings, numbers , etc. just like the variables in C, C++, python, or any other programming language. It even has a scope, just like the variables in other programming languages! Based on scopes Linux environments variables can be classified into 2 different categories:&lt;/p&gt;

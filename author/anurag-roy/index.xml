@@ -2,61 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Anurag Roy</title>
-    <link>/author/anurag-roy/</link>
-      <atom:link href="/author/anurag-roy/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://ranarag.github.io/author/anurag-roy/</link>
+      <atom:link href="https://ranarag.github.io/author/anurag-roy/index.xml" rel="self" type="application/rss+xml" />
     <description>Anurag Roy</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 30 Apr 2020 15:03:50 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://ranarag.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Anurag Roy</title>
-      <link>/author/anurag-roy/</link>
+      <link>https://ranarag.github.io/author/anurag-roy/</link>
     </image>
     
     <item>
       <title>Microblog Retrieval in a Disaster Situation: A New Test Collection for Evaluation.</title>
-      <link>/publication/basu-2017-microblog/</link>
+      <link>https://ranarag.github.io/publication/basu-2017-microblog/</link>
       <pubDate>Thu, 30 Apr 2020 15:03:50 +0000</pubDate>
-      <guid>/publication/basu-2017-microblog/</guid>
+      <guid>https://ranarag.github.io/publication/basu-2017-microblog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Retrieving Information from Multiple Sources</title>
-      <link>/publication/10-1145-3184558-3186920/</link>
+      <link>https://ranarag.github.io/publication/10-1145-3184558-3186920/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/10-1145-3184558-3186920/</guid>
+      <guid>https://ranarag.github.io/publication/10-1145-3184558-3186920/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Combining Local and Global Word Embeddings for Microblog Stemming</title>
-      <link>/publication/10-1145-3132847-3133103/</link>
+      <link>https://ranarag.github.io/publication/10-1145-3132847-3133103/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/10-1145-3132847-3133103/</guid>
+      <guid>https://ranarag.github.io/publication/10-1145-3132847-3133103/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Combining Local and Global Word Embeddings for Microblog Stemming</title>
-      <link>/publication/dblp-confcikm-roy-ggg-17/</link>
+      <link>https://ranarag.github.io/publication/dblp-confcikm-roy-ggg-17/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/dblp-confcikm-roy-ggg-17/</guid>
+      <guid>https://ranarag.github.io/publication/dblp-confcikm-roy-ggg-17/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Microblog Retrieval in a Disaster Situation: A New Test Collection for Evaluation</title>
-      <link>/publication/dblp-confecir-basu-rgbg-17-a/</link>
+      <link>https://ranarag.github.io/publication/dblp-confecir-basu-rgbg-17-a/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/dblp-confecir-basu-rgbg-17-a/</guid>
+      <guid>https://ranarag.github.io/publication/dblp-confecir-basu-rgbg-17-a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sleeping beauties in Computer Science: characterization and early identification</title>
-      <link>/publication/dblp-journalsscientometrics-dey-rcg-17/</link>
+      <link>https://ranarag.github.io/publication/dblp-journalsscientometrics-dey-rcg-17/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/dblp-journalsscientometrics-dey-rcg-17/</guid>
+      <guid>https://ranarag.github.io/publication/dblp-journalsscientometrics-dey-rcg-17/</guid>
       <description></description>
     </item>
     

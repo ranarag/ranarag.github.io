@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>networks | Anurag Roy</title>
-    <link>/tag/networks/</link>
-      <atom:link href="/tag/networks/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://ranarag.github.io/tag/networks/</link>
+      <atom:link href="https://ranarag.github.io/tag/networks/index.xml" rel="self" type="application/rss+xml" />
     <description>networks</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 28 Aug 2016 14:54:27 +0530</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://ranarag.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>networks</title>
-      <link>/tag/networks/</link>
+      <link>https://ranarag.github.io/tag/networks/</link>
     </image>
     
     <item>
       <title>How to determine the Endianness of your PC</title>
-      <link>/post/endianness_of_your_pc/</link>
+      <link>https://ranarag.github.io/post/endianness_of_your_pc/</link>
       <pubDate>Sun, 28 Aug 2016 14:54:27 +0530</pubDate>
-      <guid>/post/endianness_of_your_pc/</guid>
+      <guid>https://ranarag.github.io/post/endianness_of_your_pc/</guid>
       <description>&lt;p&gt;While studying networks I came across two system calls namely&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;ntoh(s/l)&lt;/li&gt;

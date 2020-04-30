@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>C | Anurag Roy</title>
-    <link>/tag/c/</link>
-      <atom:link href="/tag/c/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://ranarag.github.io/tag/c/</link>
+      <atom:link href="https://ranarag.github.io/tag/c/index.xml" rel="self" type="application/rss+xml" />
     <description>C</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 30 Apr 2020 12:01:04 +0530</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://ranarag.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>C</title>
-      <link>/tag/c/</link>
+      <link>https://ranarag.github.io/tag/c/</link>
     </image>
     
     <item>
       <title>From CPP to Java</title>
-      <link>/post/cpp_to_java/</link>
+      <link>https://ranarag.github.io/post/cpp_to_java/</link>
       <pubDate>Thu, 30 Apr 2020 12:01:04 +0530</pubDate>
-      <guid>/post/cpp_to_java/</guid>
+      <guid>https://ranarag.github.io/post/cpp_to_java/</guid>
       <description>&lt;p&gt;Some differences between c++ and java:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -77,9 +77,9 @@ All classes are subclasses of this root class.&lt;/p&gt;
     
     <item>
       <title>Programming Guidelines</title>
-      <link>/post/programming_guidelines/</link>
+      <link>https://ranarag.github.io/post/programming_guidelines/</link>
       <pubDate>Sat, 03 Sep 2016 10:04:25 +0530</pubDate>
-      <guid>/post/programming_guidelines/</guid>
+      <guid>https://ranarag.github.io/post/programming_guidelines/</guid>
       <description>&lt;p&gt;In the paper 
 &lt;a href=&#34;http://spinroot.com/gerard/pdf/P10.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Power of Ten-Rules for Developing Safety Critical Code&lt;/a&gt;
 the author has stated 10 rules adhering to which will make one a good programmer.&lt;/p&gt;
