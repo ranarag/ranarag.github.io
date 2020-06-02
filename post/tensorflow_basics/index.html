@@ -237,6 +237,44 @@ MathJax.Hub.Config({
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-83971111-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-83971111-1', { 'anonymize_ip': true });
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -760,6 +798,18 @@ name='b', trainable=False)
 <p><strong>Sessions</strong>: A tensorflow session is responsible for interacting with the computational graph thus created and make necessary arrangements for execution of the graph.It allocates resources required by the computational graph and holds the values of variables.Tensorflow session object(say sess) is created using the <strong>tf.Session()</strong> class.Finally we can the computational graph or a subpart of it using the <strong>sess.run()</strong> method.All sess.run does is identify all the dependencies that compose the relevant subgraph, ensure that all the placeholder variables in the concerned subgraph are filled using feed_dict,and then start executing the subgraph.</p>
 </li>
 </ol>
+
+      
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6757754890065884"
+     data-ad-slot="6757754890065884"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
     </div>
 

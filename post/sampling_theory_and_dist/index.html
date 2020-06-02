@@ -237,6 +237,44 @@ MathJax.Hub.Config({
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-83971111-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-83971111-1', { 'anonymize_ip': true });
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -740,6 +778,18 @@ Mathematically, a sample statistic for a sample of size $n$ can be defined as a 
 The function $g(X_1, X_2,&hellip;,X_n)$ is another random variable whose values can be represented by $g(x_1, x_2,&hellip;,x_n)$.</p>
 <h2 id="sampling-distributions">Sampling Distributions</h2>
 <h4 id="note-this-chapter-has-sections-taken-from-the-book-and-statistical-methods-course-offered-at-iit-kharagpur">Note: This chapter has sections taken from the book and Statistical Methods course offered at IIT Kharagpur</h4>
+
+      
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6757754890065884"
+     data-ad-slot="6757754890065884"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
     </div>
 
