@@ -3,6 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ranarag.github.io/experience/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/accomplishments/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/projects/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/featured/</loc>
+  </url>
+  
+  <url>
     <loc>https://ranarag.github.io/publication-type/1/</loc>
     <lastmod>2020-04-30T15:03:50+00:00</lastmod>
   </url>
