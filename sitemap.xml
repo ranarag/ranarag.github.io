@@ -19,17 +19,77 @@
   </url>
   
   <url>
+    <loc>https://ranarag.github.io/</loc>
+    <lastmod>2020-06-27T19:45:20+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/categories/</loc>
+    <lastmod>2020-06-27T19:45:20+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/tag/deep-learning/</loc>
+    <lastmod>2020-06-27T19:45:20+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/category/deep-learning/</loc>
+    <lastmod>2020-06-27T19:45:20+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/category/image-segmentation/</loc>
+    <lastmod>2020-06-27T19:45:20+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/tag/maml/</loc>
+    <lastmod>2020-06-27T19:45:20+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/tag/meta-learning/</loc>
+    <lastmod>2020-06-27T19:45:20+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/category/meta-learning/</loc>
+    <lastmod>2020-06-27T19:45:20+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/post/metasegnet/</loc>
+    <lastmod>2020-06-27T19:45:20+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/post/</loc>
+    <lastmod>2020-06-27T19:45:20+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/tag/summarization/</loc>
+    <lastmod>2020-06-27T19:45:20+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/tags/</loc>
+    <lastmod>2020-06-27T19:45:20+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/post/intro_to_maml/</loc>
+    <lastmod>2020-06-27T00:33:30+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ranarag.github.io/publication-type/1/</loc>
     <lastmod>2020-04-30T15:03:50+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ranarag.github.io/author/anurag-roy/</loc>
-    <lastmod>2020-04-30T15:03:50+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/</loc>
     <lastmod>2020-04-30T15:03:50+00:00</lastmod>
   </url>
   
@@ -79,11 +139,6 @@
   </url>
   
   <url>
-    <loc>https://ranarag.github.io/categories/</loc>
-    <lastmod>2020-04-30T12:01:04+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ranarag.github.io/tag/coding/</loc>
     <lastmod>2020-04-30T12:01:04+05:30</lastmod>
   </url>
@@ -105,16 +160,6 @@
   
   <url>
     <loc>https://ranarag.github.io/tag/java/</loc>
-    <lastmod>2020-04-30T12:01:04+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/post/</loc>
-    <lastmod>2020-04-30T12:01:04+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/tags/</loc>
     <lastmod>2020-04-30T12:01:04+05:30</lastmod>
   </url>
   
@@ -189,11 +234,6 @@
   </url>
   
   <url>
-    <loc>https://ranarag.github.io/tag/deep-learning/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ranarag.github.io/tag/multi-view-retrieval/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url>
@@ -236,11 +276,6 @@
   <url>
     <loc>https://ranarag.github.io/post/rl_chapter1/</loc>
     <lastmod>2017-11-09T12:47:09+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/category/deep-learning/</loc>
-    <lastmod>2017-11-08T15:09:44+05:30</lastmod>
   </url>
   
   <url>
