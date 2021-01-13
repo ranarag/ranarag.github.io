@@ -5,7 +5,7 @@
     <link>https://ranarag.github.io/author/moumita-basu/</link>
       <atom:link href="https://ranarag.github.io/author/moumita-basu/index.xml" rel="self" type="application/rss+xml" />
     <description>Moumita Basu</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 30 Apr 2020 15:03:50 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 13 Jan 2018 17:36:22 +0530</lastBuildDate>
     <image>
       <url>https://ranarag.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Moumita Basu</title>
@@ -13,26 +13,26 @@
     </image>
     
     <item>
-      <title>Microblog Retrieval in a Disaster Situation: A New Test Collection for Evaluation.</title>
-      <link>https://ranarag.github.io/publication/basu-2017-microblog/</link>
-      <pubDate>Thu, 30 Apr 2020 15:03:50 +0000</pubDate>
-      <guid>https://ranarag.github.io/publication/basu-2017-microblog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Retrieving Information from Multiple Sources</title>
-      <link>https://ranarag.github.io/publication/10-1145-3184558-3186920/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://ranarag.github.io/publication/10-1145-3184558-3186920/</guid>
+      <link>https://ranarag.github.io/publication/www18/</link>
+      <pubDate>Sat, 13 Jan 2018 17:36:22 +0530</pubDate>
+      <guid>https://ranarag.github.io/publication/www18/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Microblog Retrieval in a Disaster Situation: A New Test Collection for Evaluation</title>
-      <link>https://ranarag.github.io/publication/dblp-confecir-basu-rgbg-17-a/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://ranarag.github.io/publication/dblp-confecir-basu-rgbg-17-a/</guid>
+      <title>A Novel Word Embedding Based Stemming Approach for Microblog Retrieval During Disasters</title>
+      <link>https://ranarag.github.io/publication/ecir17/</link>
+      <pubDate>Fri, 13 Jan 2017 17:33:04 +0530</pubDate>
+      <guid>https://ranarag.github.io/publication/ecir17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microblog Retrieval in a Disaster Situation: A New Test Collection for Evaluation.</title>
+      <link>https://ranarag.github.io/publication/smerp17/</link>
+      <pubDate>Fri, 13 Jan 2017 17:32:55 +0530</pubDate>
+      <guid>https://ranarag.github.io/publication/smerp17/</guid>
       <description></description>
     </item>
     
