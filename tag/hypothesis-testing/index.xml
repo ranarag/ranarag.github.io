@@ -43,8 +43,8 @@ It&amp;rsquo;s like picking a ball from an urn and then putting it back into the
 A similar example for this type of sampling would be picking a ball from the urn and not putting it back inside the urn.&lt;/p&gt;
 &lt;h2 id=&#34;sampling-statistics&#34;&gt;Sampling statistics&lt;/h2&gt;
 &lt;p&gt;A quantity obtained from the sample for the purpose estimating a population parameter is called a &lt;em&gt;sample statistic&lt;/em&gt; or briefly &lt;em&gt;statistic&lt;/em&gt;.
-Mathematically, a sample statistic for a sample of size $n$ can be defined as a function of the random variables $ X_1, X_2,&amp;hellip;,X_n $ i.e., $ g(X_1, X_2,&amp;hellip;,X_n) $.
-The function $ g(X_1, X_2,&amp;hellip;,X_n) $ is another random variable whose values can be represented by $g(x_1, x_2,&amp;hellip;,x_n)$.&lt;/p&gt;
+Mathematically, a sample statistic for a sample of size $n$ can be defined as a function of the random variables $X_1, X_2,&amp;hellip;,X_n$ i.e., $g(X_1, X_2,&amp;hellip;,X_n)$.
+The function $g(X_1, X_2,&amp;hellip;,X_n)$ is another random variable whose values can be represented by $g(x_1, x_2,&amp;hellip;,x_n)$.&lt;/p&gt;
 &lt;h4 id=&#34;more-info-coming-soon--&#34;&gt;More info coming soon :-)&lt;/h4&gt;
 &lt;!-- ## Sampling Distributions --&gt;
 &lt;h4 id=&#34;note-this-chapter-has-sections-taken-from-the-book-and-statistical-methods-course-offered-at-iit-kharagpur&#34;&gt;Note: This chapter has sections taken from the book and Statistical Methods course offered at IIT Kharagpur&lt;/h4&gt;

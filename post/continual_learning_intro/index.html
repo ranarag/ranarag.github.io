@@ -56,8 +56,8 @@ MathJax.Hub.Config({
   
     
   
-  <meta name="description" content="Introduction to Continual Learning In this section we will introduce you to Continual Learning
-  Introduction to Continual Learning   Definition  Overwiew  Features  Catastrophic Forgetting  Stability-Plasticity Dilemma  Approaches   Regularization Based  Dynamic Architectures  Complementary Learning System and Memory Replay    References    Definition A continual learning system can be defined as an adaptive algorithm capable of learning from a continuous stream of information, with such information becoming progressively available over time and where the number of tasks learned are not pre-defined.">
+  <meta name="description" content="In this section we will introduce you to Continual Learning
+Contents   Contents   Definition  Overwiew  Features  Catastrophic Forgetting  Stability-Plasticity Dilemma  Approaches   Regularization Based  Dynamic Architectures  Memory Replay    References    Definition A continual learning system can be defined as an adaptive algorithm capable of learning from a continuous stream of information, with such information becoming progressively available over time and where the number of tasks learned are not pre-defined.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://ranarag.github.io/post/continual_learning_intro/">
@@ -306,8 +306,8 @@ MathJax.Hub.Config({
   <meta property="og:site_name" content="Anurag Roy">
   <meta property="og:url" content="https://ranarag.github.io/post/continual_learning_intro/">
   <meta property="og:title" content="Introduction to Continual Learning | Anurag Roy">
-  <meta property="og:description" content="Introduction to Continual Learning In this section we will introduce you to Continual Learning
-  Introduction to Continual Learning   Definition  Overwiew  Features  Catastrophic Forgetting  Stability-Plasticity Dilemma  Approaches   Regularization Based  Dynamic Architectures  Complementary Learning System and Memory Replay    References    Definition A continual learning system can be defined as an adaptive algorithm capable of learning from a continuous stream of information, with such information becoming progressively available over time and where the number of tasks learned are not pre-defined."><meta property="og:image" content="https://ranarag.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="og:description" content="In this section we will introduce you to Continual Learning
+Contents   Contents   Definition  Overwiew  Features  Catastrophic Forgetting  Stability-Plasticity Dilemma  Approaches   Regularization Based  Dynamic Architectures  Memory Replay    References    Definition A continual learning system can be defined as an adaptive algorithm capable of learning from a continuous stream of information, with such information becoming progressively available over time and where the number of tasks learned are not pre-defined."><meta property="og:image" content="https://ranarag.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://ranarag.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
@@ -357,7 +357,7 @@ MathJax.Hub.Config({
       "url": "https://ranarag.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "Introduction to Continual Learning In this section we will introduce you to Continual Learning\n  Introduction to Continual Learning   Definition  Overwiew  Features  Catastrophic Forgetting  Stability-Plasticity Dilemma  Approaches   Regularization Based  Dynamic Architectures  Complementary Learning System and Memory Replay    References    Definition A continual learning system can be defined as an adaptive algorithm capable of learning from a continuous stream of information, with such information becoming progressively available over time and where the number of tasks learned are not pre-defined."
+  "description": "In this section we will introduce you to Continual Learning\nContents   Contents   Definition  Overwiew  Features  Catastrophic Forgetting  Stability-Plasticity Dilemma  Approaches   Regularization Based  Dynamic Architectures  Memory Replay    References    Definition A continual learning system can be defined as an adaptive algorithm capable of learning from a continuous stream of information, with such information becoming progressively available over time and where the number of tasks learned are not pre-defined."
 }
 </script>
 
@@ -756,11 +756,11 @@ MathJax.Hub.Config({
   <div class="article-container">
 
     <div class="article-style">
-      <h1 id="introduction-to-continual-learning">Introduction to Continual Learning</h1>
-<p>In this section we will introduce you to Continual Learning</p>
+      <p>In this section we will introduce you to Continual Learning</p>
+<h1 id="contents">Contents</h1>
 <ul>
 <li>
-<a href="#introduction-to-continual-learning">Introduction to Continual Learning</a>
+<a href="#contents">Contents</a>
 <ul>
 <li>
 <a href="#definition">Definition</a></li>
@@ -780,7 +780,7 @@ MathJax.Hub.Config({
 <li>
 <a href="#dynamic-architectures">Dynamic Architectures</a></li>
 <li>
-<a href="#complementary-learning-system-and-memory-replay">Complementary Learning System and Memory Replay</a></li>
+<a href="#memory-replay">Memory Replay</a></li>
 </ul>
 </li>
 <li>
@@ -825,7 +825,7 @@ This results in what is known as the <strong>stability Plasticity Dilemma</stron
 <p>Regularization based approaches alleviate catastrophic forgetting by imposing constraints on the update of the parameters of the neural networks. In case of over-parameterized neural networks, such approaches usually exploit the previously unused parameters to learn a new task.</p>
 <h3 id="dynamic-architectures">Dynamic Architectures</h3>
 <p>These approaches change the architectural property of the network to accomodate new information.</p>
-<h3 id="complementary-learning-system-and-memory-replay">Complementary Learning System and Memory Replay</h3>
+<h3 id="memory-replay">Memory Replay</h3>
 <p>These approaches make use of a small fixed size memory of instances of previous tasks which it replays along with the new instances during training a new task. This helps in interplay of an epoisodic memory(specific experience) of the current task and a semantic memory (general structure knowledge) from the instances of previous tasks stored in the memory to consolidate knowledge.</p>
 <h2 id="references">References</h2>
 <ol>

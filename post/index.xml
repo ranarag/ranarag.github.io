@@ -17,11 +17,11 @@
       <link>https://ranarag.github.io/post/continual_learning_intro/</link>
       <pubDate>Sat, 31 Jul 2021 20:19:01 +0530</pubDate>
       <guid>https://ranarag.github.io/post/continual_learning_intro/</guid>
-      <description>&lt;h1 id=&#34;introduction-to-continual-learning&#34;&gt;Introduction to Continual Learning&lt;/h1&gt;
-&lt;p&gt;In this section we will introduce you to Continual Learning&lt;/p&gt;
+      <description>&lt;p&gt;In this section we will introduce you to Continual Learning&lt;/p&gt;
+&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;a href=&#34;#introduction-to-continual-learning&#34;&gt;Introduction to Continual Learning&lt;/a&gt;
+&lt;a href=&#34;#contents&#34;&gt;Contents&lt;/a&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;a href=&#34;#definition&#34;&gt;Definition&lt;/a&gt;&lt;/li&gt;
@@ -41,7 +41,7 @@
 &lt;li&gt;
 &lt;a href=&#34;#dynamic-architectures&#34;&gt;Dynamic Architectures&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;#complementary-learning-system-and-memory-replay&#34;&gt;Complementary Learning System and Memory Replay&lt;/a&gt;&lt;/li&gt;
+&lt;a href=&#34;#memory-replay&#34;&gt;Memory Replay&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -86,7 +86,7 @@ This results in what is known as the &lt;strong&gt;stability Plasticity Dilemma&
 &lt;p&gt;Regularization based approaches alleviate catastrophic forgetting by imposing constraints on the update of the parameters of the neural networks. In case of over-parameterized neural networks, such approaches usually exploit the previously unused parameters to learn a new task.&lt;/p&gt;
 &lt;h3 id=&#34;dynamic-architectures&#34;&gt;Dynamic Architectures&lt;/h3&gt;
 &lt;p&gt;These approaches change the architectural property of the network to accomodate new information.&lt;/p&gt;
-&lt;h3 id=&#34;complementary-learning-system-and-memory-replay&#34;&gt;Complementary Learning System and Memory Replay&lt;/h3&gt;
+&lt;h3 id=&#34;memory-replay&#34;&gt;Memory Replay&lt;/h3&gt;
 &lt;p&gt;These approaches make use of a small fixed size memory of instances of previous tasks which it replays along with the new instances during training a new task. This helps in interplay of an epoisodic memory(specific experience) of the current task and a semantic memory (general structure knowledge) from the instances of previous tasks stored in the memory to consolidate knowledge.&lt;/p&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;ol&gt;
@@ -245,8 +245,8 @@ It&amp;rsquo;s like picking a ball from an urn and then putting it back into the
 A similar example for this type of sampling would be picking a ball from the urn and not putting it back inside the urn.&lt;/p&gt;
 &lt;h2 id=&#34;sampling-statistics&#34;&gt;Sampling statistics&lt;/h2&gt;
 &lt;p&gt;A quantity obtained from the sample for the purpose estimating a population parameter is called a &lt;em&gt;sample statistic&lt;/em&gt; or briefly &lt;em&gt;statistic&lt;/em&gt;.
-Mathematically, a sample statistic for a sample of size $n$ can be defined as a function of the random variables $ X_1, X_2,&amp;hellip;,X_n $ i.e., $ g(X_1, X_2,&amp;hellip;,X_n) $.
-The function $ g(X_1, X_2,&amp;hellip;,X_n) $ is another random variable whose values can be represented by $g(x_1, x_2,&amp;hellip;,x_n)$.&lt;/p&gt;
+Mathematically, a sample statistic for a sample of size $n$ can be defined as a function of the random variables $X_1, X_2,&amp;hellip;,X_n$ i.e., $g(X_1, X_2,&amp;hellip;,X_n)$.
+The function $g(X_1, X_2,&amp;hellip;,X_n)$ is another random variable whose values can be represented by $g(x_1, x_2,&amp;hellip;,x_n)$.&lt;/p&gt;
 &lt;h4 id=&#34;more-info-coming-soon--&#34;&gt;More info coming soon :-)&lt;/h4&gt;
 &lt;!-- ## Sampling Distributions --&gt;
 &lt;h4 id=&#34;note-this-chapter-has-sections-taken-from-the-book-and-statistical-methods-course-offered-at-iit-kharagpur&#34;&gt;Note: This chapter has sections taken from the book and Statistical Methods course offered at IIT Kharagpur&lt;/h4&gt;
