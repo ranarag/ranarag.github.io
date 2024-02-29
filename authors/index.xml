@@ -5,7 +5,7 @@
     <link>https://ranarag.github.io/authors/</link>
       <atom:link href="https://ranarag.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 17 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 27 Feb 2024 00:00:00 +0530</lastBuildDate>
     <image>
       <url>https://ranarag.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Authors</title>
@@ -13,18 +13,18 @@
     </image>
     
     <item>
-      <title>Abir Das</title>
-      <link>https://ranarag.github.io/author/abir-das/</link>
-      <pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://ranarag.github.io/author/abir-das/</guid>
+      <title>Anurag Roy</title>
+      <link>https://ranarag.github.io/author/anurag-roy/</link>
+      <pubDate>Tue, 27 Feb 2024 00:00:00 +0530</pubDate>
+      <guid>https://ranarag.github.io/author/anurag-roy/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Anurag Roy</title>
-      <link>https://ranarag.github.io/author/anurag-roy/</link>
+      <title>Abir Das</title>
+      <link>https://ranarag.github.io/author/abir-das/</link>
       <pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://ranarag.github.io/author/anurag-roy/</guid>
+      <guid>https://ranarag.github.io/author/abir-das/</guid>
       <description></description>
     </item>
     
@@ -121,13 +121,39 @@
       <link>https://ranarag.github.io/author/anurag-roy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ranarag.github.io/author/anurag-roy/</guid>
-      <description>&lt;p&gt;I am a Ph.D. scholar at IIT Kharagpur under the supervision of 
-&lt;a href=&#34;https://sites.google.com/site/saptarshighosh/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Saptarshi Ghosh&lt;/a&gt;  and 
-&lt;a href=&#34;https://cse.iitkgp.ac.in/~adas/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Abir Das&lt;/a&gt; of Computer Science and Engineering Department.
-I graduated from the Computer Science and Technology department(with Hons.) of IIEST Shibpur in the year 2017.
-I am also a member of the 
-&lt;a href=&#34;http://www.cnergres.iitkgp.ac.in/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Complex Networks Research Group(CNERG)&lt;/a&gt; and the 
-&lt;a href=&#34;https://cse.iitkgp.ac.in/~adas/cvir.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Computer Vision and Intelligence Research (CVIR)&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;I am currently pursuing my Ph.D. in the Department of Computer Science and Engineering at IIT Kharagpur, working under the guidance of 
+&lt;a href=&#34;https://sites.google.com/site/saptarshighosh/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Saptarshi Ghosh&lt;/a&gt;, a member of the  
+&lt;a href=&#34;http://www.cnergres.iitkgp.ac.in/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Complex Networks Research Group(CNERG)&lt;/a&gt;, and  
+&lt;a href=&#34;https://cse.iitkgp.ac.in/~adas/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Abir Das&lt;/a&gt;, who heads the 
+&lt;a href=&#34;https://cse.iitkgp.ac.in/~adas/cvir.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Computer Vision and Intelligence Research (CVIR)&lt;/a&gt;.
+I earned my undergraduate degree with Honors in Computer Science and Technology from the Department of Computer Science and Technology at IIEST Shibpur in 2017.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;News&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;02/2024: &lt;strong&gt;CVPR 2024&lt;/strong&gt; paper on 
+&lt;a href=&#34;#&#34;&gt;Convolutional Prompting meets Language Models for Continual Learning&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;02/2024: Invited to attend 
+&lt;a href=&#34;https://sites.google.com/view/researchweek24/home&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Research Week with Google&lt;/a&gt; in India&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;11/2024: Invited to present our &lt;strong&gt;ICCV 2023&lt;/strong&gt; paper at the &lt;strong&gt;Vision India&lt;/strong&gt; session during 
+&lt;a href=&#34;https://www.iitrpr.ac.in/ICVGIP/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ICVGIP 2023&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;08/2023: Received &lt;strong&gt;Microsoft Research Travel Grant&lt;/strong&gt; to present our paper &amp;ldquo;Exemplar-Free Continual Transformer with Convolutions&amp;rdquo; at 
+&lt;a href=&#34;https://iccv2023.thecvf.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ICCV 2023&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;07/2023: &lt;strong&gt;ICCV 2023&lt;/strong&gt; paper on 
+&lt;a href=&#34;https://arxiv.org/abs/2308.11357&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Exemplar-Free Continual Transformer with Convolutions&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;01/2023: Invited to attend 
+&lt;a href=&#34;https://sites.google.com/view/researchweek2023/home&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Research Week with Google&lt;/a&gt; in India&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

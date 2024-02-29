@@ -3,27 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ranarag.github.io/</loc>
+    <lastmod>2024-02-27T00:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/author/anurag-roy/</loc>
+    <lastmod>2024-02-27T00:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/authors/</loc>
+    <lastmod>2024-02-27T00:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/news/cpp_to_java/</loc>
+    <lastmod>2024-02-27T00:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/news/</loc>
+    <lastmod>2024-02-27T00:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ranarag.github.io/publication-type/1/</loc>
     <lastmod>2024-01-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ranarag.github.io/author/abir-das/</loc>
-    <lastmod>2024-01-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/</loc>
-    <lastmod>2024-01-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/author/anurag-roy/</loc>
-    <lastmod>2024-01-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/authors/</loc>
     <lastmod>2024-01-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -153,12 +163,17 @@
   </url>
   
   <url>
+    <loc>https://ranarag.github.io/tag/statistics/</loc>
+    <lastmod>2019-12-04T19:50:36+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ranarag.github.io/category/statistics/</loc>
     <lastmod>2019-12-04T19:50:36+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://ranarag.github.io/tag/statistics/</loc>
+    <loc>https://ranarag.github.io/news/stat-101/</loc>
     <lastmod>2019-12-04T19:50:36+05:30</lastmod>
   </url>
   
@@ -168,12 +183,22 @@
   </url>
   
   <url>
+    <loc>https://ranarag.github.io/news/sampling_theory_and_dist/</loc>
+    <lastmod>2019-11-05T19:50:36+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ranarag.github.io/post/sampling_theory_and_dist/</loc>
     <lastmod>2019-11-05T19:50:36+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://ranarag.github.io/tag/hacks/</loc>
+    <lastmod>2019-09-12T20:41:53+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/news/how_to_install_packages_locally_in_linux/</loc>
     <lastmod>2019-09-12T20:41:53+05:30</lastmod>
   </url>
   
@@ -228,6 +253,11 @@
   </url>
   
   <url>
+    <loc>https://ranarag.github.io/news/rl_chapter2/</loc>
+    <lastmod>2017-11-09T16:36:20+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ranarag.github.io/post/rl_chapter2/</loc>
     <lastmod>2017-11-09T16:36:20+05:30</lastmod>
   </url>
@@ -238,13 +268,18 @@
   </url>
   
   <url>
+    <loc>https://ranarag.github.io/category/reinforcement-learning-an-introduction/</loc>
+    <lastmod>2017-11-09T16:36:20+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ranarag.github.io/tag/reinforcement-learning-an-introduction/</loc>
     <lastmod>2017-11-09T16:36:20+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://ranarag.github.io/category/reinforcement-learning-an-introduction/</loc>
-    <lastmod>2017-11-09T16:36:20+05:30</lastmod>
+    <loc>https://ranarag.github.io/news/rl_chapter1/</loc>
+    <lastmod>2017-11-09T12:47:09+05:30</lastmod>
   </url>
   
   <url>
@@ -273,6 +308,11 @@
   </url>
   
   <url>
+    <loc>https://ranarag.github.io/news/tensorboard_basics/</loc>
+    <lastmod>2017-11-08T15:09:44+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ranarag.github.io/post/tensorboard_basics/</loc>
     <lastmod>2017-11-08T15:09:44+05:30</lastmod>
   </url>
@@ -280,6 +320,11 @@
   <url>
     <loc>https://ranarag.github.io/tag/tensorflow/</loc>
     <lastmod>2017-11-08T15:09:44+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/news/tensorflow_basics/</loc>
+    <lastmod>2017-07-05T21:25:58+05:30</lastmod>
   </url>
   
   <url>
@@ -353,6 +398,11 @@
   </url>
   
   <url>
+    <loc>https://ranarag.github.io/news/programming_guidelines/</loc>
+    <lastmod>2016-09-03T10:04:25+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ranarag.github.io/post/programming_guidelines/</loc>
     <lastmod>2016-09-03T10:04:25+05:30</lastmod>
   </url>
@@ -369,6 +419,11 @@
   
   <url>
     <loc>https://ranarag.github.io/tag/c-/</loc>
+    <lastmod>2016-08-28T14:54:27+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/news/endianness_of_your_pc/</loc>
     <lastmod>2016-08-28T14:54:27+05:30</lastmod>
   </url>
   
