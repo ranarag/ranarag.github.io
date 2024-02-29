@@ -28,5 +28,13 @@
       <description></description>
     </item>
     
+    <item>
+      <title>ZSCRGAN: A GAN-based Expectation Maximization Model for Zero-Shot Retrieval of Images from Textual Descriptions.</title>
+      <link>https://ranarag.github.io/publication/zscrgan_cikm20/</link>
+      <pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://ranarag.github.io/publication/zscrgan_cikm20/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
