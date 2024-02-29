@@ -237,44 +237,6 @@ MathJax.Hub.Config({
 
 
 
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-83971111-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-      dataLayer.push(arguments);
-  }
-
-  function trackOutboundLink(url, target) {
-    gtag('event', 'click', {
-         'event_category': 'outbound',
-         'event_label': url,
-         'transport_type': 'beacon',
-         'event_callback': function () {
-           if (target !== '_blank') {
-             document.location = url;
-           }
-         }
-    });
-    console.debug("Outbound link clicked: " + url);
-  }
-
-  function onClickCallback(event) {
-    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-      return;
-    }
-    trackOutboundLink(event.target, event.target.getAttribute('target'));  
-  }
-
-  gtag('js', new Date());
-  gtag('config', 'UA-83971111-1', { 'anonymize_ip': true });
-
-  
-  document.addEventListener('click', onClickCallback, false);
-</script>
-
-
   
 
 
@@ -310,7 +272,7 @@ MathJax.Hub.Config({
   <meta property="og:description" content="pursuing PhD in Multimodal Machine Learning"><meta property="og:image" content="https://ranarag.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://ranarag.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2021-01-13T18:26:11&#43;05:30">
+    <meta property="og:updated_time" content="2024-01-17T00:00:00&#43;00:00">
   
 
   
@@ -427,7 +389,7 @@ MathJax.Hub.Config({
 
     
     
-    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
 
       
       <ul class="navbar-nav d-md-inline-flex">
@@ -485,7 +447,7 @@ MathJax.Hub.Config({
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
         </li>
 
         
@@ -514,7 +476,7 @@ MathJax.Hub.Config({
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
         </li>
 
         
@@ -650,10 +612,10 @@ MathJax.Hub.Config({
     
     
     <div>
-      <h2><a href="/publication/zscrgan/" >ZSCRGAN: A GAN-based Expectation Maximization Model for Zero-Shot Retrieval of Images from Textual Descriptions</a></h2>
+      <h2><a href="/publication/convprompt_cvpr2024/" >Convolutional Prompting meets Language Models for Continual Learning</a></h2>
       <div class="article-style">
         
-           Most existing algorithms for cross-modal Information Retrieval are based on a supervised train-test setup, where a model learns to align the mode of the query (e.g., text) to the mode of the documents (e.g., images) from a given training set. Such a …
+          Continual Learning (CL) enables machine learning models to learn from continuously shifting new training data in absence of data from old tasks. Recently, pre-trained vision transformers combined with prompt tuning have shown promise for overcoming …
         
       </div>
     </div>
@@ -662,10 +624,10 @@ MathJax.Hub.Config({
     
     
     <div>
-      <h2><a href="/publication/cods21/" >Distributed Representation of Tags for Active Zero Shot Learning [short paper]</a></h2>
+      <h2><a href="/publication/contracon_iccv23/" >Exemplar-Free Continual Transformer with Convolutions.</a></h2>
       <div class="article-style">
         
-          Extreme multi-labeled classification (XMLC) refers to the problem of tagging items to its most relevant subset of class labels from an extremely large set of labels. Since it is practically difficult to obtain training instances for each of such a …
+          Continual Learning (CL) involves training a machine learning model in a sequential manner to learn new information while retaining previously learned tasks without the presence of previous training data. Although there has been significant interest …
         
       </div>
     </div>
@@ -674,10 +636,10 @@ MathJax.Hub.Config({
     
     
     <div>
-      <h2><a href="/publication/www18/" >Retrieving Information from Multiple Sources [poster]</a></h2>
+      <h2><a href="/publication/aaai_2021/" >HateXplain: A Benchmark Dataset for Explainable Hate Speech Detection</a></h2>
       <div class="article-style">
         
-          The Web has several information sources on which an ongoing event is discussed. To get a complete picture of the event, it is important to retrieve information from multiple sources. We propose a novel neural network based model which integrates the …
+          Hate speech is a challenging issue plaguing the online social media. While better models for hate speech detection are continuously being developed, there is little research on the bias and interpretability aspects of hate speech. In this paper, we …
         
       </div>
     </div>
@@ -686,10 +648,8 @@ MathJax.Hub.Config({
     
     
     <div>
-      <h2><a href="/publication/cikm17/" >Combining Local and Global Word Embeddings for Microblog Stemming [short paper]</a></h2>
+      <h2><a href="/publication/basu-2017-microblog/" >Microblog Retrieval in a Disaster Situation: A New Test Collection for Evaluation.</a></h2>
       <div class="article-style">
-        
-          Stemming is a vital step employed to improve retrieval performance through efficient unification of morphological variants of a word. We propose an unsupervised, context-specific stemming algorithm for microblogs, based on both local and global word …
         
       </div>
     </div>
@@ -698,10 +658,8 @@ MathJax.Hub.Config({
     
     
     <div>
-      <h2><a href="/publication/ecir17/" >A Novel Word Embedding Based Stemming Approach for Microblog Retrieval During Disasters [short paper]</a></h2>
+      <h2><a href="/publication/10-1145-3184558-3186920/" >Retrieving Information from Multiple Sources</a></h2>
       <div class="article-style">
-        
-          IR methods are increasingly being applied over microblogs to extract real-time information, such as during disaster events. In such sites, most of the user-generated content is written informally -- the same word is often spelled differently by …
         
       </div>
     </div>
@@ -710,10 +668,28 @@ MathJax.Hub.Config({
     
     
     <div>
-      <h2><a href="/publication/smerp17/" >Microblog Retrieval in a Disaster Situation: A New Test Collection for Evaluation.</a></h2>
+      <h2><a href="/publication/10-1145-3132847-3133103/" >Combining Local and Global Word Embeddings for Microblog Stemming</a></h2>
       <div class="article-style">
         
-          Microblogging sites are important sources of situational information during disaster situations. Hence it is important to design and evaluate Information Retrieval (IR) systems that retrieve information from microblogs during disaster situations. The …
+      </div>
+    </div>
+  
+    
+    
+    
+    <div>
+      <h2><a href="/publication/dblp-confcikm-roy-ggg-17/" >Combining Local and Global Word Embeddings for Microblog Stemming</a></h2>
+      <div class="article-style">
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div>
+      <h2><a href="/publication/dblp-confecir-basu-rgbg-17-a/" >Microblog Retrieval in a Disaster Situation: A New Test Collection for Evaluation</a></h2>
+      <div class="article-style">
         
       </div>
     </div>

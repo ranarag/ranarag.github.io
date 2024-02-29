@@ -3,169 +3,133 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ranarag.github.io/experience/</loc>
+    <loc>https://ranarag.github.io/publication-type/1/</loc>
+    <lastmod>2024-01-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ranarag.github.io/accomplishments/</loc>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/projects/</loc>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/featured/</loc>
+    <loc>https://ranarag.github.io/author/abir-das/</loc>
+    <lastmod>2024-01-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ranarag.github.io/author/anurag-roy/</loc>
-    <lastmod>2021-07-31T20:19:01+05:30</lastmod>
+    <lastmod>2024-01-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ranarag.github.io/</loc>
-    <lastmod>2021-07-31T20:19:01+05:30</lastmod>
+    <lastmod>2024-01-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ranarag.github.io/authors/</loc>
-    <lastmod>2021-07-31T20:19:01+05:30</lastmod>
+    <lastmod>2024-01-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ranarag.github.io/tag/c/</loc>
-    <lastmod>2021-07-31T20:19:01+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/tag/continual-learning/</loc>
-    <lastmod>2021-07-31T20:19:01+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/tag/incremental-learning/</loc>
-    <lastmod>2021-07-31T20:19:01+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/post/continual_learning_intro/</loc>
-    <lastmod>2021-07-31T20:19:01+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/post/</loc>
-    <lastmod>2021-07-31T20:19:01+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/tags/</loc>
-    <lastmod>2021-07-31T20:19:01+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/publication-type/1/</loc>
-    <lastmod>2021-01-13T18:26:11+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/author/kripabandhu-ghosh/</loc>
-    <lastmod>2021-01-13T18:26:11+05:30</lastmod>
+    <loc>https://ranarag.github.io/publication/convprompt_cvpr2024/</loc>
+    <lastmod>2024-01-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ranarag.github.io/publication_types/</loc>
-    <lastmod>2021-01-13T18:26:11+05:30</lastmod>
+    <lastmod>2024-01-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ranarag.github.io/publication/</loc>
-    <lastmod>2021-01-13T18:26:11+05:30</lastmod>
+    <lastmod>2024-01-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/author/riddhiman-moulick/</loc>
+    <lastmod>2024-01-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ranarag.github.io/author/saptarshi-ghosh/</loc>
-    <lastmod>2021-01-13T18:26:11+05:30</lastmod>
+    <lastmod>2024-01-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ranarag.github.io/author/vinay-kumar-verma/</loc>
-    <lastmod>2021-01-13T18:26:11+05:30</lastmod>
+    <lastmod>2024-01-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ranarag.github.io/publication/zscrgan/</loc>
-    <lastmod>2021-01-13T18:26:11+05:30</lastmod>
+    <loc>https://ranarag.github.io/publication/contracon_iccv23/</loc>
+    <lastmod>2023-10-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ranarag.github.io/publication/cods21/</loc>
-    <lastmod>2021-01-13T17:35:46+05:30</lastmod>
+    <loc>https://ranarag.github.io/author/kripabandhu-ghosh/</loc>
+    <lastmod>2023-10-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ranarag.github.io/author/yash-jain/</loc>
-    <lastmod>2021-01-13T17:35:46+05:30</lastmod>
+    <loc>https://ranarag.github.io/author/sravan-voonna/</loc>
+    <lastmod>2023-10-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ranarag.github.io/publication-type/3/</loc>
-    <lastmod>2021-01-13T17:33:37+05:30</lastmod>
+    <loc>https://ranarag.github.io/author/animesh-mukherjee/</loc>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ranarag.github.io/publication/jdiq/</loc>
-    <lastmod>2021-01-13T17:33:37+05:30</lastmod>
+    <loc>https://ranarag.github.io/author/binny-mathew/</loc>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ranarag.github.io/author/shalmoli-ghosh/</loc>
-    <lastmod>2021-01-13T17:33:37+05:30</lastmod>
+    <loc>https://ranarag.github.io/author/chris-biemann/</loc>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/publication/aaai_2021/</loc>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/author/pawan-goyal/</loc>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/author/punyajoy-saha/</loc>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/author/seid-muhie-yimam/</loc>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/publication/basu-2017-microblog/</loc>
+    <lastmod>2020-04-30T15:03:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/author/moumita-basu/</loc>
+    <lastmod>2020-04-30T15:03:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/author/somprakash-bandyopadhyay/</loc>
+    <lastmod>2020-04-30T15:03:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/tag/c/</loc>
+    <lastmod>2020-04-30T12:01:04+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://ranarag.github.io/categories/</loc>
-    <lastmod>2020-06-27T19:45:20+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/tag/deep-learning/</loc>
-    <lastmod>2020-06-27T19:45:20+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/category/deep-learning/</loc>
-    <lastmod>2020-06-27T19:45:20+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/category/image-segmentation/</loc>
-    <lastmod>2020-06-27T19:45:20+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/tag/maml/</loc>
-    <lastmod>2020-06-27T19:45:20+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/tag/meta-learning/</loc>
-    <lastmod>2020-06-27T19:45:20+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/category/meta-learning/</loc>
-    <lastmod>2020-06-27T19:45:20+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/post/metasegnet/</loc>
-    <lastmod>2020-06-27T19:45:20+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/tag/summarization/</loc>
-    <lastmod>2020-06-27T19:45:20+05:30</lastmod>
+    <lastmod>2020-04-30T12:01:04+05:30</lastmod>
   </url>
   
   <url>
@@ -194,6 +158,16 @@
   </url>
   
   <url>
+    <loc>https://ranarag.github.io/post/</loc>
+    <lastmod>2020-04-30T12:01:04+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/tags/</loc>
+    <lastmod>2020-04-30T12:01:04+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ranarag.github.io/tag/hypothesis-testing/</loc>
     <lastmod>2019-12-04T19:50:36+05:30</lastmod>
   </url>
@@ -214,12 +188,12 @@
   </url>
   
   <url>
-    <loc>https://ranarag.github.io/tag/statistics/</loc>
+    <loc>https://ranarag.github.io/category/statistics/</loc>
     <lastmod>2019-12-04T19:50:36+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://ranarag.github.io/category/statistics/</loc>
+    <loc>https://ranarag.github.io/tag/statistics/</loc>
     <lastmod>2019-12-04T19:50:36+05:30</lastmod>
   </url>
   
@@ -254,68 +228,38 @@
   </url>
   
   <url>
-    <loc>https://ranarag.github.io/tag/systems/</loc>
-    <lastmod>2019-09-12T20:41:53+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ranarag.github.io/category/systems/</loc>
     <lastmod>2019-09-12T20:41:53+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://ranarag.github.io/author/moumita-basu/</loc>
-    <lastmod>2018-01-13T17:36:22+05:30</lastmod>
+    <loc>https://ranarag.github.io/tag/systems/</loc>
+    <lastmod>2019-09-12T20:41:53+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/tag/deep-learning/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ranarag.github.io/tag/multi-view-retrieval/</loc>
-    <lastmod>2018-01-13T17:36:22+05:30</lastmod>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ranarag.github.io/author/parth-gupta/</loc>
-    <lastmod>2018-01-13T17:36:22+05:30</lastmod>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ranarag.github.io/publication/www18/</loc>
-    <lastmod>2018-01-13T17:36:22+05:30</lastmod>
+    <loc>https://ranarag.github.io/publication/10-1145-3184558-3186920/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ranarag.github.io/tag/word-embedding/</loc>
-    <lastmod>2018-01-13T17:36:22+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/publication/cikm17/</loc>
-    <lastmod>2018-01-13T17:36:01+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/author/trishnendu-ghorai/</loc>
-    <lastmod>2018-01-13T17:36:01+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/publication-type/2/</loc>
-    <lastmod>2018-01-13T17:33:19+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/author/ratnadeep-dey/</loc>
-    <lastmod>2018-01-13T17:33:19+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/publication/sleeping-beauty/</loc>
-    <lastmod>2018-01-13T17:33:19+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/author/tanmoy-chakraborty/</loc>
-    <lastmod>2018-01-13T17:33:19+05:30</lastmod>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -341,6 +285,11 @@
   <url>
     <loc>https://ranarag.github.io/post/rl_chapter1/</loc>
     <lastmod>2017-11-09T12:47:09+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/category/deep-learning/</loc>
+    <lastmod>2017-11-08T15:09:44+05:30</lastmod>
   </url>
   
   <url>
@@ -374,18 +323,63 @@
   </url>
   
   <url>
-    <loc>https://ranarag.github.io/publication/ecir17/</loc>
-    <lastmod>2017-01-13T17:33:04+05:30</lastmod>
+    <loc>https://ranarag.github.io/publication-type/2/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ranarag.github.io/author/somprakash-bandyopadhyay/</loc>
-    <lastmod>2017-01-13T17:33:04+05:30</lastmod>
+    <loc>https://ranarag.github.io/publication/10-1145-3132847-3133103/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ranarag.github.io/publication/smerp17/</loc>
-    <lastmod>2017-01-13T17:32:55+05:30</lastmod>
+    <loc>https://ranarag.github.io/publication/dblp-confcikm-roy-ggg-17/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/tag/glove/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/tag/microblog/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/publication/dblp-confecir-basu-rgbg-17-a/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/author/ratnadeep-dey/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/publication/dblp-journalsscientometrics-dey-rcg-17/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/tag/stemming/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/author/tanmoy-chakraborty/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/author/trishnendu-ghorai/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/tag/word2vec/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>

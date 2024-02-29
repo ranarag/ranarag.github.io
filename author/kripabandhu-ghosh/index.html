@@ -237,44 +237,6 @@ MathJax.Hub.Config({
 
 
 
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-83971111-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-      dataLayer.push(arguments);
-  }
-
-  function trackOutboundLink(url, target) {
-    gtag('event', 'click', {
-         'event_category': 'outbound',
-         'event_label': url,
-         'transport_type': 'beacon',
-         'event_callback': function () {
-           if (target !== '_blank') {
-             document.location = url;
-           }
-         }
-    });
-    console.debug("Outbound link clicked: " + url);
-  }
-
-  function onClickCallback(event) {
-    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-      return;
-    }
-    trackOutboundLink(event.target, event.target.getAttribute('target'));  
-  }
-
-  gtag('js', new Date());
-  gtag('config', 'UA-83971111-1', { 'anonymize_ip': true });
-
-  
-  document.addEventListener('click', onClickCallback, false);
-</script>
-
-
   
 
 
@@ -310,7 +272,7 @@ MathJax.Hub.Config({
   <meta property="og:description" content="pursuing PhD in Multimodal Machine Learning"><meta property="og:image" content="https://ranarag.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://ranarag.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2021-01-13T18:26:11&#43;05:30">
+    <meta property="og:updated_time" content="2023-10-01T00:00:00&#43;00:00">
   
 
   
@@ -427,7 +389,7 @@ MathJax.Hub.Config({
 
     
     
-    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
 
       
       <ul class="navbar-nav d-md-inline-flex">
@@ -485,7 +447,7 @@ MathJax.Hub.Config({
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
         </li>
 
         
@@ -514,7 +476,7 @@ MathJax.Hub.Config({
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
         </li>
 
         
@@ -633,27 +595,27 @@ MathJax.Hub.Config({
       <ul>
         
         <li>
-          <a href="/publication/zscrgan/">ZSCRGAN: A GAN-based Expectation Maximization Model for Zero-Shot Retrieval of Images from Textual Descriptions</a>
+          <a href="/publication/contracon_iccv23/">Exemplar-Free Continual Transformer with Convolutions.</a>
         </li>
         
         <li>
-          <a href="/publication/jdiq/">An Unsupervised Normalization Algorithm for Noisy Text: A Case Study for Information Retrieval and Stance Detection</a>
+          <a href="/publication/basu-2017-microblog/">Microblog Retrieval in a Disaster Situation: A New Test Collection for Evaluation.</a>
         </li>
         
         <li>
-          <a href="/publication/www18/">Retrieving Information from Multiple Sources [poster]</a>
+          <a href="/publication/10-1145-3184558-3186920/">Retrieving Information from Multiple Sources</a>
         </li>
         
         <li>
-          <a href="/publication/cikm17/">Combining Local and Global Word Embeddings for Microblog Stemming [short paper]</a>
+          <a href="/publication/10-1145-3132847-3133103/">Combining Local and Global Word Embeddings for Microblog Stemming</a>
         </li>
         
         <li>
-          <a href="/publication/ecir17/">A Novel Word Embedding Based Stemming Approach for Microblog Retrieval During Disasters [short paper]</a>
+          <a href="/publication/dblp-confcikm-roy-ggg-17/">Combining Local and Global Word Embeddings for Microblog Stemming</a>
         </li>
         
         <li>
-          <a href="/publication/smerp17/">Microblog Retrieval in a Disaster Situation: A New Test Collection for Evaluation.</a>
+          <a href="/publication/dblp-confecir-basu-rgbg-17-a/">Microblog Retrieval in a Disaster Situation: A New Test Collection for Evaluation</a>
         </li>
         
       </ul>

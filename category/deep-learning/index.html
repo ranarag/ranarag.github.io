@@ -237,44 +237,6 @@ MathJax.Hub.Config({
 
 
 
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-83971111-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-      dataLayer.push(arguments);
-  }
-
-  function trackOutboundLink(url, target) {
-    gtag('event', 'click', {
-         'event_category': 'outbound',
-         'event_label': url,
-         'transport_type': 'beacon',
-         'event_callback': function () {
-           if (target !== '_blank') {
-             document.location = url;
-           }
-         }
-    });
-    console.debug("Outbound link clicked: " + url);
-  }
-
-  function onClickCallback(event) {
-    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-      return;
-    }
-    trackOutboundLink(event.target, event.target.getAttribute('target'));  
-  }
-
-  gtag('js', new Date());
-  gtag('config', 'UA-83971111-1', { 'anonymize_ip': true });
-
-  
-  document.addEventListener('click', onClickCallback, false);
-</script>
-
-
   
 
 
@@ -306,11 +268,11 @@ MathJax.Hub.Config({
   
   <meta property="og:site_name" content="Anurag Roy">
   <meta property="og:url" content="https://ranarag.github.io/category/deep-learning/">
-  <meta property="og:title" content="deep learning | Anurag Roy">
+  <meta property="og:title" content="Deep Learning | Anurag Roy">
   <meta property="og:description" content="pursuing PhD in Multimodal Machine Learning"><meta property="og:image" content="https://ranarag.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://ranarag.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2020-06-27T19:45:20&#43;05:30">
+    <meta property="og:updated_time" content="2017-11-08T15:09:44&#43;05:30">
   
 
   
@@ -357,7 +319,7 @@ MathJax.Hub.Config({
 
 
 
-  <title>deep learning | Anurag Roy</title>
+  <title>Deep Learning | Anurag Roy</title>
 
 </head>
 
@@ -427,7 +389,7 @@ MathJax.Hub.Config({
 
     
     
-    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
 
       
       <ul class="navbar-nav d-md-inline-flex">
@@ -485,7 +447,7 @@ MathJax.Hub.Config({
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
         </li>
 
         
@@ -514,7 +476,7 @@ MathJax.Hub.Config({
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
         </li>
 
         
@@ -632,7 +594,7 @@ MathJax.Hub.Config({
     
   
 <div class="universal-wrapper pt-3">
-  <h1>deep learning</h1>
+  <h1>Deep Learning</h1>
 
   
 
@@ -645,19 +607,6 @@ MathJax.Hub.Config({
   
 
   
-  
-    
-    
-    
-    <div>
-      <h2><a href="/post/metasegnet/" >MetaSegnet</a></h2>
-      <div class="article-style">
-        
-          Summary While Existing methods on few-shot image segmentation focus on 1-way segmentation, this paper focuses on k-way segmentation tasks.
-Existing Few-shot learning algorithms suffer from:  Distribution Divergence: Most existing methods require to be pre-trained on ImageNet.
-        
-      </div>
-    </div>
   
     
     

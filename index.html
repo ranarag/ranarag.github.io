@@ -237,44 +237,6 @@ MathJax.Hub.Config({
 
 
 
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-83971111-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-      dataLayer.push(arguments);
-  }
-
-  function trackOutboundLink(url, target) {
-    gtag('event', 'click', {
-         'event_category': 'outbound',
-         'event_label': url,
-         'transport_type': 'beacon',
-         'event_callback': function () {
-           if (target !== '_blank') {
-             document.location = url;
-           }
-         }
-    });
-    console.debug("Outbound link clicked: " + url);
-  }
-
-  function onClickCallback(event) {
-    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-      return;
-    }
-    trackOutboundLink(event.target, event.target.getAttribute('target'));  
-  }
-
-  gtag('js', new Date());
-  gtag('config', 'UA-83971111-1', { 'anonymize_ip': true });
-
-  
-  document.addEventListener('click', onClickCallback, false);
-</script>
-
-
   
 
 
@@ -312,7 +274,7 @@ MathJax.Hub.Config({
   <meta property="og:description" content="pursuing PhD in Multimodal Machine Learning"><meta property="og:image" content="https://ranarag.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://ranarag.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2021-07-31T20:19:01&#43;05:30">
+    <meta property="og:updated_time" content="2024-01-17T00:00:00&#43;00:00">
   
 
   
@@ -443,7 +405,7 @@ MathJax.Hub.Config({
 
     
     
-    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
 
       
       <ul class="navbar-nav d-md-inline-flex">
@@ -501,7 +463,7 @@ MathJax.Hub.Config({
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#featured" data-target="#featured"><span>Publications</span></a>
+          <a class="nav-link " href="/#posts" data-target="#posts"><span>Posts</span></a>
         </li>
 
         
@@ -530,7 +492,7 @@ MathJax.Hub.Config({
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#posts" data-target="#posts"><span>Posts</span></a>
+          <a class="nav-link " href="/#featured" data-target="#featured"><span>Publications</span></a>
         </li>
 
         
@@ -792,23 +754,6 @@ MathJax.Hub.Config({
         
         
         
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://www.linkedin.com/in/ranurag/" target="_blank" rel="noopener">
-            <i class="fab fa-linkedin-in big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
         
         
         
@@ -832,9 +777,7 @@ MathJax.Hub.Config({
 
     <p>I graduated from the Computer Science and Technology department(with Hons.) of IIEST Shibpur in the year 2017.
 I worked as a software engineer at Polaris Networks for a year(July 2017 - Jul 2018).
-Currently I am a Ph.D. scholar at IIT Kharagpur under the supervision of 
-<a href="https://sites.google.com/site/saptarshighosh/home" target="_blank" rel="noopener">Prof. Saptarshi Ghosh</a>  and 
-<a href="https://cse.iitkgp.ac.in/~adas/index.php" target="_blank" rel="noopener">Prof. Abir Das</a> of Computer Science and Engineering Department.
+Currently I am a Ph.D. scholar at IIT Kharagpur under the supervision of Prof. Saptarshi Ghosh of Computer Science and Engineering Department.
 I am also a member of the 
 <a href="http://www.cnergres.iitkgp.ac.in/%22" target="_blank" rel="noopener">Complex Networks Research Group(CNERG)</a></p>
 
@@ -851,10 +794,6 @@ I am also a member of the
           <li>Multimodal Learning</li>
           
           <li>Information Retrieval</li>
-          
-          <li>Meta Learning</li>
-          
-          <li>Continual Learning</li>
           
         </ul>
       </div>
@@ -1211,12 +1150,11 @@ I am also a member of the
                 <span>San Jose, California</span>
               
             </div>
-            <div class="card-text"><p>Responsibilities include:</p>
+            <div class="card-text">Responsibilities include:</p>
 <ul>
 <li>Development of 5g core network stack</li>
 <li>Development of MCPTT tester</li>
-</ul>
-</div>
+</ul></div>
           </div>
         </div>
       </div>
@@ -1419,640 +1357,6 @@ I am also a member of the
   
   
 
-  <section id="publications" class="home-section wg-pages   "  >
-    <div class="container">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>Recent Publications</h1>
-    
-  </div>
-  <div class="col-12 col-lg-8">
-
-    <div class="alert alert-note">
-  <div>
-    Quickly discover relevant content by <a href="https://ranarag.github.io/publication/">filtering publications</a>.
-  </div>
-</div>
-
-
-    
-      
-        
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/publication/zscrgan/" >ZSCRGAN: A GAN-based Expectation Maximization Model for Zero-Shot Retrieval of Images from Textual Descriptions</a>
-    </h3>
-
-    
-    <div class="article-style">
-      Most existing algorithms for cross-modal Information Retrieval are based on a supervised train-test setup, where a model learns to …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  
-  <span><a href="/author/anurag-roy/">Anurag Roy</a></span>, <span><a href="/author/vinay-kumar-verma/">Vinay Kumar Verma</a></span>, <span><a href="/author/kripabandhu-ghosh/">Kripabandhu Ghosh</a></span>, <span><a href="/author/saptarshi-ghosh/">Saptarshi Ghosh</a></span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2007.12212.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/ranarag/ZSCRGAN" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1145/3340531.3411995" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-      
-    
-      
-        
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/publication/cods21/" >Distributed Representation of Tags for Active Zero Shot Learning [short paper]</a>
-    </h3>
-
-    
-    <div class="article-style">
-      Extreme multi-labeled classification (XMLC) refers to the problem of tagging items to its most relevant subset of class labels from an …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  
-  <span><a href="/author/yash-jain/">Yash Jain</a></span>, <span><a href="/author/anurag-roy/">Anurag Roy</a></span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://dl.acm.org/doi/abs/10.1145/3430984.3431035" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/yashkgp/active_zero_shot_learning" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1145/3430984.3431035" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-      
-    
-      
-        
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/publication/jdiq/" >An Unsupervised Normalization Algorithm for Noisy Text: A Case Study for Information Retrieval and Stance Detection</a>
-    </h3>
-
-    
-    <div class="article-style">
-      A large fraction of textual data available today contains various types of &lsquo;noise&rsquo;, such as OCR noise in digitized …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  
-  <span><a href="/author/anurag-roy/">Anurag Roy</a></span>, <span><a href="/author/shalmoli-ghosh/">Shalmoli Ghosh</a></span>, <span><a href="/author/kripabandhu-ghosh/">Kripabandhu Ghosh</a></span>, <span><a href="/author/saptarshi-ghosh/">Saptarshi Ghosh</a></span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2101.03303.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/ranarag/UnsupClean" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-      
-    
-      
-        
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/publication/www18/" >Retrieving Information from Multiple Sources [poster]</a>
-    </h3>
-
-    
-    <div class="article-style">
-      The Web has several information sources on which an ongoing event is discussed. To get a complete picture of the event, it is important …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  
-  <span><a href="/author/anurag-roy/">Anurag Roy</a></span>, <span><a href="/author/kripabandhu-ghosh/">Kripabandhu Ghosh</a></span>, <span><a href="/author/moumita-basu/">Moumita Basu</a></span>, <span><a href="/author/parth-gupta/">Parth Gupta</a></span>, <span><a href="/author/saptarshi-ghosh/">Saptarshi Ghosh</a></span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://dl.acm.org/doi/abs/10.1145/3184558.3186920" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1145/3184558.3186920" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-      
-    
-      
-        
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/publication/cikm17/" >Combining Local and Global Word Embeddings for Microblog Stemming [short paper]</a>
-    </h3>
-
-    
-    <div class="article-style">
-      Stemming is a vital step employed to improve retrieval performance through efficient unification of morphological variants of a word. …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  
-  <span><a href="/author/anurag-roy/">Anurag Roy</a></span>, <span><a href="/author/trishnendu-ghorai/">Trishnendu Ghorai</a></span>, <span><a href="/author/kripabandhu-ghosh/">Kripabandhu Ghosh</a></span>, <span><a href="/author/saptarshi-ghosh/">Saptarshi Ghosh</a></span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://dl.acm.org/doi/abs/10.1145/3132847.3133103" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/ranarag/CIKM2017" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1145/3132847.3133103" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-      
-    
-
-    
-    <div class="see-all">
-      <a href="/publication/">
-        See all publications
-        <i class="fas fa-angle-right"></i>
-      </a>
-    </div>
-    
-
-  </div>
-</div>
-
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
   <section id="posts" class="home-section wg-pages   "  >
     <div class="container">
       
@@ -2107,198 +1411,6 @@ I am also a member of the
 
     
 
-    
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/post/continual_learning_intro/" >Introduction to Continual Learning</a>
-    </h3>
-
-    
-    <div class="article-style">
-      In this section we will introduce you to Continual Learning
-Contents   Contents   Definition  Overwiew  Features  Catastrophic Forgetting  Stability-Plasticity Dilemma  Approaches   Regularization Based  Dynamic Architectures  Memory Replay    References    Definition A continual learning system can be defined as an adaptive algorithm capable of learning from a continuous stream of information, with such information becoming progressively available over time and where the number of tasks learned are not pre-defined.
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-  
-  <span><a href="/author/anurag-roy/">Anurag Roy</a></span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    Jul 31, 2021
-  </span>
-  
-
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    3 min read
-  </span>
-  
-
-  
-  
-  
-  <span class="middot-divider"></span>
-  <a href="/post/continual_learning_intro/#disqus_thread"></a>
-  
-
-  
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-      
-    
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/post/metasegnet/" >MetaSegnet</a>
-    </h3>
-
-    
-    <div class="article-style">
-      Summary While Existing methods on few-shot image segmentation focus on 1-way segmentation, this paper focuses on k-way segmentation tasks.
-Existing Few-shot learning algorithms suffer from:  Distribution Divergence: Most existing methods require to be pre-trained on ImageNet.
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    Jun 27, 2020
-  </span>
-  
-
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    3 min read
-  </span>
-  
-
-  
-  
-  
-  <span class="middot-divider"></span>
-  <a href="/post/metasegnet/#disqus_thread"></a>
-  
-
-  
-  
-  <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/meta-learning/">meta learning</a>, <a href="/category/deep-learning/">deep learning</a>, <a href="/category/image-segmentation/">image segmentation</a></span>
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-      
     
       
         
@@ -2578,11 +1690,1332 @@ Existing Few-shot learning algorithms suffer from:  Distribution Divergence: Mos
 
       
     
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/post/how_to_install_packages_locally_in_linux/" >How to Install Packages Locally in Linux</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Some Prerequisites What is a variable? A variable is a storage location for a value. Linux has environment variables. It can store strings, numbers , etc. just like the variables in C, C++, python, or any other programming language.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Sep 12, 2019
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    4 min read
+  </span>
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/post/how_to_install_packages_locally_in_linux/#disqus_thread"></a>
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/systems/">systems</a></span>
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/post/rl_chapter2/" >Multi-Armed Bandits</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Introduction Reinforcement Learning is different from other machine learning in the aspect that it evaluates the actions rather than instructing than instructing the correct actions.
+  Purely evaluative feedback indicates how good an action is , but not whether it is best or worst action possible.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Nov 9, 2017
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    7 min read
+  </span>
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/post/rl_chapter2/#disqus_thread"></a>
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/reinforcement-learning-an-introduction/">Reinforcement Learning-An Introduction</a></span>
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
 
     
     <div class="see-all">
       <a href="/post/">
         See all posts
+        <i class="fas fa-angle-right"></i>
+      </a>
+    </div>
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="talks" class="home-section wg-pages   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Recent &amp; Upcoming Talks</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+
+    
+
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="featured" class="home-section wg-featured   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Featured Publications</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+
+    
+      
+        
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/author/anurag-roy/">Anurag Roy</a></span>, <span><a href="/author/riddhiman-moulick/">Riddhiman Moulick</a></span>, <span><a href="/author/vinay-kumar-verma/">Vinay Kumar Verma</a></span>, <span><a href="/author/saptarshi-ghosh/">Saptarshi Ghosh</a></span>, <span><a href="/author/abir-das/">Abir Das</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2024
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      CVPR 2024
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/publication/convprompt_cvpr2024/#disqus_thread"></a>
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/publication/convprompt_cvpr2024/">
+      <img src="/publication/convprompt_cvpr2024/featured_hu719b70319f4879b71cd698ba775e00f7_261401_918x517_fill_q90_lanczos_smart1_2.png" class="article-banner" alt="">
+  </a>
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/convprompt_cvpr2024/">Convolutional Prompting meets Language Models for Continual Learning</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>Continual Learning (CL) enables machine learning models to learn from continuously shifting new training data in absence of data from old tasks. Recently, pre-trained vision transformers combined with prompt tuning have shown promise for overcoming catastrophic forgetting in CL. These approaches rely on a pool of learnable prompts which can be inefficient in sharing knowledge across tasks leading to inferior performance. In addition, the lack of fine-grained layer specific prompts does not allow these to fully express the strength of the prompts for CL. We address these limitations by proposing ConvPrompt, a novel convolutional prompt creation mechanism that maintains layer-wise shared embeddings, enabling both layer-specific learning and better concept transfer across tasks. The intelligent use of convolution enables us to maintain a low parameter overhead without compromising performance. We further leverage Large Language Models to generate fine-grained text descriptions of each category which are used to get task similarity and dynamically decide the number of prompts to be learned. Extensive experiments demonstrate the superiority of ConvPrompt which improves the state-of-the-art with significantly less parameter overhead.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/convprompt_cvpr2024/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/author/anurag-roy/">Anurag Roy</a></span>, <span><a href="/author/vinay-kumar-verma/">Vinay Kumar Verma</a></span>, <span><a href="/author/sravan-voonna/">Sravan Voonna</a></span>, <span><a href="/author/kripabandhu-ghosh/">Kripabandhu Ghosh</a></span>, <span><a href="/author/saptarshi-ghosh/">Saptarshi Ghosh</a></span>, <span><a href="/author/abir-das/">Abir Das</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    October 2023
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      ICCV 2023
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/publication/contracon_iccv23/#disqus_thread"></a>
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/publication/contracon_iccv23/">
+      <img src="/publication/contracon_iccv23/featured_hua42c4f531be82bcce1eb9678c0d2c0c6_38051_918x517_fill_q90_lanczos_smart1_2.png" class="article-banner" alt="">
+  </a>
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/contracon_iccv23/">Exemplar-Free Continual Transformer with Convolutions.</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>Continual Learning (CL) involves training a machine learning model in a sequential manner to learn new information while retaining previously learned tasks without the presence of previous training data. Although there has been significant interest in CL, most recent CL approaches in computer vision have focused on convolutional architectures only. However, with the recent success of vision transformers, there is a need to explore their potential for CL. Although there have been some recent CL approaches for vision transformers, they either store training instances of previous tasks or require a task identifier during test time, which can be limiting. This paper proposes a new exemplar-free approach for class/task incremental learning called ConTraCon, which does not require task-id to be explicitly present during inference and avoids the need for storing previous training instances. The proposed approach leverages the transformer architecture and involves re-weighting the key, query, and value weights of the multi-head self-attention layers of a transformer trained on a similar task. The re-weighting is done using convolution, which enables the approach to maintain low parameter requirements per task. Additionally, an image augmentation-based entropic task identification approach is used to predict tasks without requiring task-ids during inference. Experiments on four benchmark datasets demonstrate that the proposed approach outperforms several competitive approaches while requiring fewer parameters.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2308.11357" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/contracon_iccv23/cite.bib">
+  Cite
+</button>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/CVIR/contracon" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://cvir.github.io/projects/contracon" target="_blank" rel="noopener">
+  Project
+</a>
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/contracon_iccv23/ICCV2023_presentation.pdf" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1109/ICCV51070.2023.00542" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+
+  
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="publications" class="home-section wg-pages   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Recent Publications</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+
+    <div class="alert alert-note">
+  <div>
+    Quickly discover relevant content by <a href="https://ranarag.github.io/publication/">filtering publications</a>.
+  </div>
+</div>
+
+
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/convprompt_cvpr2024/" >Convolutional Prompting meets Language Models for Continual Learning</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Continual Learning (CL) enables machine learning models to learn from continuously shifting new training data in absence of data from …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="/author/anurag-roy/">Anurag Roy</a></span>, <span><a href="/author/riddhiman-moulick/">Riddhiman Moulick</a></span>, <span><a href="/author/vinay-kumar-verma/">Vinay Kumar Verma</a></span>, <span><a href="/author/saptarshi-ghosh/">Saptarshi Ghosh</a></span>, <span><a href="/author/abir-das/">Abir Das</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/convprompt_cvpr2024/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/convprompt_cvpr2024/" >
+      <img src="/publication/convprompt_cvpr2024/featured_hu719b70319f4879b71cd698ba775e00f7_261401_150x0_resize_lanczos_2.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/contracon_iccv23/" >Exemplar-Free Continual Transformer with Convolutions.</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Continual Learning (CL) involves training a machine learning model in a sequential manner to learn new information while retaining …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="/author/anurag-roy/">Anurag Roy</a></span>, <span><a href="/author/vinay-kumar-verma/">Vinay Kumar Verma</a></span>, <span><a href="/author/sravan-voonna/">Sravan Voonna</a></span>, <span><a href="/author/kripabandhu-ghosh/">Kripabandhu Ghosh</a></span>, <span><a href="/author/saptarshi-ghosh/">Saptarshi Ghosh</a></span>, <span><a href="/author/abir-das/">Abir Das</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2308.11357" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/contracon_iccv23/cite.bib">
+  Cite
+</button>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/CVIR/contracon" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://cvir.github.io/projects/contracon" target="_blank" rel="noopener">
+  Project
+</a>
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/contracon_iccv23/ICCV2023_presentation.pdf" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1109/ICCV51070.2023.00542" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/contracon_iccv23/" >
+      <img src="/publication/contracon_iccv23/featured_hua42c4f531be82bcce1eb9678c0d2c0c6_38051_150x0_resize_lanczos_2.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/aaai_2021/" >HateXplain: A Benchmark Dataset for Explainable Hate Speech Detection</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Hate speech is a challenging issue plaguing the online social media. While better models for hate speech detection are continuously …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="/author/binny-mathew/">Binny Mathew</a></span>, <span><a href="/author/punyajoy-saha/">Punyajoy Saha</a></span>, <span><a href="/author/seid-muhie-yimam/">Seid Muhie Yimam</a></span>, <span><a href="/author/chris-biemann/">Chris Biemann</a></span>, <span><a href="/author/pawan-goyal/">Pawan Goyal</a></span>, <span><a href="/author/animesh-mukherjee/">Animesh Mukherjee</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2012.10289" target="_blank" rel="noopener">
+  Preprint
+</a>
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2012.10289" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/aaai_2021/cite.bib">
+  Cite
+</button>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/punyajoy/HateXplain" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://huggingface.co/datasets/hatexplain" target="_blank" rel="noopener">
+  Dataset
+</a>
+
+
+
+  
+    
+  
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/aaai_2021/talk.pdf" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/basu-2017-microblog/" >Microblog Retrieval in a Disaster Situation: A New Test Collection for Evaluation.</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="/author/moumita-basu/">Moumita Basu</a></span>, <span><a href="/author/anurag-roy/">Anurag Roy</a></span>, <span><a href="/author/kripabandhu-ghosh/">Kripabandhu Ghosh</a></span>, <span><a href="/author/somprakash-bandyopadhyay/">Somprakash Bandyopadhyay</a></span>, <span><a href="/author/saptarshi-ghosh/">Saptarshi Ghosh</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/basu-2017-microblog/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/10-1145-3184558-3186920/" >Retrieving Information from Multiple Sources</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="/author/anurag-roy/">Anurag Roy</a></span>, <span><a href="/author/kripabandhu-ghosh/">Kripabandhu Ghosh</a></span>, <span><a href="/author/moumita-basu/">Moumita Basu</a></span>, <span><a href="/author/parth-gupta/">Parth Gupta</a></span>, <span><a href="/author/saptarshi-ghosh/">Saptarshi Ghosh</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1145/3184558.3186920" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/10-1145-3184558-3186920/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1145/3184558.3186920" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+
+    
+    <div class="see-all">
+      <a href="/publication/">
+        See all publications
         <i class="fas fa-angle-right"></i>
       </a>
     </div>
@@ -2666,7 +3099,7 @@ Existing Few-shot learning algorithms suffer from:  Distribution Divergence: Mos
           
           
           
-          <a href="/tag/c/" style="font-size:1.259879525495411rem">C</a>
+          <a href="/tag/c/" style="font-size:1.35rem">C</a>
         
           
           
@@ -2676,12 +3109,7 @@ Existing Few-shot learning algorithms suffer from:  Distribution Divergence: Mos
           
           
           
-          <a href="/tag/coding/" style="font-size:1.259879525495411rem">coding</a>
-        
-          
-          
-          
-          <a href="/tag/continual-learning/" style="font-size:0.7rem">Continual Learning</a>
+          <a href="/tag/coding/" style="font-size:1.35rem">coding</a>
         
           
           
@@ -2691,7 +3119,12 @@ Existing Few-shot learning algorithms suffer from:  Distribution Divergence: Mos
           
           
           
-          <a href="/tag/deep-learning/" style="font-size:1.819759050990822rem">deep learning</a>
+          <a href="/tag/deep-learning/" style="font-size:1.7302256254687514rem">Deep learning</a>
+        
+          
+          
+          
+          <a href="/tag/glove/" style="font-size:0.7rem">glove</a>
         
           
           
@@ -2701,12 +3134,7 @@ Existing Few-shot learning algorithms suffer from:  Distribution Divergence: Mos
           
           
           
-          <a href="/tag/hypothesis-testing/" style="font-size:1.259879525495411rem">hypothesis testing</a>
-        
-          
-          
-          
-          <a href="/tag/incremental-learning/" style="font-size:0.7rem">Incremental Learning</a>
+          <a href="/tag/hypothesis-testing/" style="font-size:1.35rem">hypothesis testing</a>
         
           
           
@@ -2721,47 +3149,52 @@ Existing Few-shot learning algorithms suffer from:  Distribution Divergence: Mos
           
           
           
-          <a href="/tag/maml/" style="font-size:0.7rem">maml</a>
+          <a href="/tag/microblog/" style="font-size:0.7rem">microblog</a>
         
           
           
           
-          <a href="/tag/meta-learning/" style="font-size:0.7rem">meta learning</a>
+          <a href="/tag/multi-view-retrieval/" style="font-size:0.7rem">multi-view retrieval</a>
         
           
           
           
-          <a href="/tag/neural-networks/" style="font-size:1.259879525495411rem">Neural Networks</a>
+          <a href="/tag/neural-networks/" style="font-size:1.35rem">Neural Networks</a>
         
           
           
           
-          <a href="/tag/python/" style="font-size:1.259879525495411rem">Python</a>
+          <a href="/tag/python/" style="font-size:1.35rem">Python</a>
         
           
           
           
-          <a href="/tag/reinforcement-learning/" style="font-size:1.259879525495411rem">Reinforcement Learning</a>
+          <a href="/tag/reinforcement-learning/" style="font-size:1.35rem">Reinforcement Learning</a>
         
           
           
           
-          <a href="/tag/reinforcement-learning-an-introduction/" style="font-size:1.259879525495411rem">Reinforcement Learning-An Introduction</a>
+          <a href="/tag/reinforcement-learning-an-introduction/" style="font-size:1.35rem">Reinforcement Learning-An Introduction</a>
         
           
           
           
-          <a href="/tag/samples/" style="font-size:1.259879525495411rem">samples</a>
+          <a href="/tag/samples/" style="font-size:1.35rem">samples</a>
         
           
           
           
-          <a href="/tag/statistics/" style="font-size:1.259879525495411rem">statistics</a>
+          <a href="/tag/statistics/" style="font-size:1.35rem">statistics</a>
         
           
           
           
-          <a href="/tag/tensorflow/" style="font-size:1.259879525495411rem">Tensorflow</a>
+          <a href="/tag/tensorflow/" style="font-size:1.35rem">Tensorflow</a>
+        
+          
+          
+          
+          <a href="/tag/word-embedding/" style="font-size:1.35rem">word embedding</a>
         
       </div>
     
