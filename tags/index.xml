@@ -101,30 +101,6 @@
     </item>
     
     <item>
-      <title>Deep learning</title>
-      <link>https://ranarag.github.io/tag/deep-learning/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://ranarag.github.io/tag/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>multi-view retrieval</title>
-      <link>https://ranarag.github.io/tag/multi-view-retrieval/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://ranarag.github.io/tag/multi-view-retrieval/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>word embedding</title>
-      <link>https://ranarag.github.io/tag/word-embedding/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://ranarag.github.io/tag/word-embedding/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Reinforcement Learning</title>
       <link>https://ranarag.github.io/tag/reinforcement-learning/</link>
       <pubDate>Thu, 09 Nov 2017 16:36:20 +0530</pubDate>
@@ -137,6 +113,14 @@
       <link>https://ranarag.github.io/tag/reinforcement-learning-an-introduction/</link>
       <pubDate>Thu, 09 Nov 2017 16:36:20 +0530</pubDate>
       <guid>https://ranarag.github.io/tag/reinforcement-learning-an-introduction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep learning</title>
+      <link>https://ranarag.github.io/tag/deep-learning/</link>
+      <pubDate>Wed, 08 Nov 2017 15:09:44 +0530</pubDate>
+      <guid>https://ranarag.github.io/tag/deep-learning/</guid>
       <description></description>
     </item>
     
@@ -169,38 +153,6 @@
       <link>https://ranarag.github.io/tag/tensorflow/</link>
       <pubDate>Wed, 08 Nov 2017 15:09:44 +0530</pubDate>
       <guid>https://ranarag.github.io/tag/tensorflow/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>glove</title>
-      <link>https://ranarag.github.io/tag/glove/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://ranarag.github.io/tag/glove/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>microblog</title>
-      <link>https://ranarag.github.io/tag/microblog/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://ranarag.github.io/tag/microblog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>stemming</title>
-      <link>https://ranarag.github.io/tag/stemming/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://ranarag.github.io/tag/stemming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>word2vec</title>
-      <link>https://ranarag.github.io/tag/word2vec/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://ranarag.github.io/tag/word2vec/</guid>
       <description></description>
     </item>
     

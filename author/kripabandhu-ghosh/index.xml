@@ -13,7 +13,7 @@
     </image>
     
     <item>
-      <title>Exemplar-Free Continual Transformer with Convolutions.</title>
+      <title>Exemplar-Free Continual Transformer with Convolutions</title>
       <link>https://ranarag.github.io/publication/contracon_iccv23/</link>
       <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
       <guid>https://ranarag.github.io/publication/contracon_iccv23/</guid>
@@ -38,41 +38,33 @@
     
     <item>
       <title>Microblog Retrieval in a Disaster Situation: A New Test Collection for Evaluation.</title>
-      <link>https://ranarag.github.io/publication/basu-2017-microblog/</link>
-      <pubDate>Thu, 30 Apr 2020 15:03:50 +0000</pubDate>
-      <guid>https://ranarag.github.io/publication/basu-2017-microblog/</guid>
+      <link>https://ranarag.github.io/publication/ir_smerp17/</link>
+      <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://ranarag.github.io/publication/ir_smerp17/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Retrieving Information from Multiple Sources</title>
-      <link>https://ranarag.github.io/publication/10-1145-3184558-3186920/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://ranarag.github.io/publication/10-1145-3184558-3186920/</guid>
+      <link>https://ranarag.github.io/publication/ir_www18/</link>
+      <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://ranarag.github.io/publication/ir_www18/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Combining Local and Global Word Embeddings for Microblog Stemming</title>
-      <link>https://ranarag.github.io/publication/10-1145-3132847-3133103/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://ranarag.github.io/publication/10-1145-3132847-3133103/</guid>
+      <link>https://ranarag.github.io/publication/stem_cikm17/</link>
+      <pubDate>Mon, 06 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>https://ranarag.github.io/publication/stem_cikm17/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Combining Local and Global Word Embeddings for Microblog Stemming</title>
-      <link>https://ranarag.github.io/publication/dblp-confcikm-roy-ggg-17/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://ranarag.github.io/publication/dblp-confcikm-roy-ggg-17/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Microblog Retrieval in a Disaster Situation: A New Test Collection for Evaluation</title>
-      <link>https://ranarag.github.io/publication/dblp-confecir-basu-rgbg-17-a/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://ranarag.github.io/publication/dblp-confecir-basu-rgbg-17-a/</guid>
+      <title>A novel word embedding based stemming approach for microblog retrieval during disasters</title>
+      <link>https://ranarag.github.io/publication/stem_ecir17/</link>
+      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>https://ranarag.github.io/publication/stem_ecir17/</guid>
       <description></description>
     </item>
     

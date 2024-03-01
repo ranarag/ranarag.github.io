@@ -3,12 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ranarag.github.io/</loc>
+    <loc>https://ranarag.github.io/author/anurag-roy/</loc>
     <lastmod>2024-02-27T00:00:00+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://ranarag.github.io/author/anurag-roy/</loc>
+    <loc>https://ranarag.github.io/</loc>
     <lastmod>2024-02-27T00:00:00+05:30</lastmod>
   </url>
   
@@ -108,21 +108,6 @@
   </url>
   
   <url>
-    <loc>https://ranarag.github.io/publication/basu-2017-microblog/</loc>
-    <lastmod>2020-04-30T15:03:50+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/author/moumita-basu/</loc>
-    <lastmod>2020-04-30T15:03:50+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/author/somprakash-bandyopadhyay/</loc>
-    <lastmod>2020-04-30T15:03:50+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ranarag.github.io/tag/c/</loc>
     <lastmod>2020-04-30T12:01:04+05:30</lastmod>
   </url>
@@ -188,12 +173,12 @@
   </url>
   
   <url>
-    <loc>https://ranarag.github.io/tag/statistics/</loc>
+    <loc>https://ranarag.github.io/category/statistics/</loc>
     <lastmod>2019-12-04T19:50:36+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://ranarag.github.io/category/statistics/</loc>
+    <loc>https://ranarag.github.io/tag/statistics/</loc>
     <lastmod>2019-12-04T19:50:36+05:30</lastmod>
   </url>
   
@@ -253,28 +238,43 @@
   </url>
   
   <url>
-    <loc>https://ranarag.github.io/tag/deep-learning/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <loc>https://ranarag.github.io/publication/ir_smerp17/</loc>
+    <lastmod>2018-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ranarag.github.io/tag/multi-view-retrieval/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <loc>https://ranarag.github.io/author/moumita-basu/</loc>
+    <lastmod>2018-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ranarag.github.io/author/parth-gupta/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ranarag.github.io/publication/10-1145-3184558-3186920/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <loc>https://ranarag.github.io/publication/ir_www18/</loc>
+    <lastmod>2018-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ranarag.github.io/tag/word-embedding/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <loc>https://ranarag.github.io/author/somprakash-bandyopadhyay/</loc>
+    <lastmod>2018-04-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/author/ratnadeep-dey/</loc>
+    <lastmod>2017-11-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/publication/sleeping_beauties_scientometrics/</loc>
+    <lastmod>2017-11-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/author/tanmoy-chakraborty/</loc>
+    <lastmod>2017-11-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -293,12 +293,12 @@
   </url>
   
   <url>
-    <loc>https://ranarag.github.io/tag/reinforcement-learning-an-introduction/</loc>
+    <loc>https://ranarag.github.io/category/reinforcement-learning-an-introduction/</loc>
     <lastmod>2017-11-09T16:36:20+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://ranarag.github.io/category/reinforcement-learning-an-introduction/</loc>
+    <loc>https://ranarag.github.io/tag/reinforcement-learning-an-introduction/</loc>
     <lastmod>2017-11-09T16:36:20+05:30</lastmod>
   </url>
   
@@ -314,6 +314,11 @@
   
   <url>
     <loc>https://ranarag.github.io/category/deep-learning/</loc>
+    <lastmod>2017-11-08T15:09:44+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/tag/deep-learning/</loc>
     <lastmod>2017-11-08T15:09:44+05:30</lastmod>
   </url>
   
@@ -348,6 +353,16 @@
   </url>
   
   <url>
+    <loc>https://ranarag.github.io/publication/stem_cikm17/</loc>
+    <lastmod>2017-11-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ranarag.github.io/author/trishnendu-ghorai/</loc>
+    <lastmod>2017-11-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ranarag.github.io/news/tensorflow_basics/</loc>
     <lastmod>2017-07-05T21:25:58+05:30</lastmod>
   </url>
@@ -358,63 +373,8 @@
   </url>
   
   <url>
-    <loc>https://ranarag.github.io/publication-type/2/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/publication/10-1145-3132847-3133103/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/publication/dblp-confcikm-roy-ggg-17/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/tag/glove/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/tag/microblog/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/publication/dblp-confecir-basu-rgbg-17-a/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/author/ratnadeep-dey/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/publication/dblp-journalsscientometrics-dey-rcg-17/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/tag/stemming/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/author/tanmoy-chakraborty/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/author/trishnendu-ghorai/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ranarag.github.io/tag/word2vec/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <loc>https://ranarag.github.io/publication/stem_ecir17/</loc>
+    <lastmod>2017-04-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
